@@ -17,9 +17,18 @@ function BestSkills(props: BestSkillsProps) {
 export default function () {
     const cvPhotoSize = 170;
     const bestSkills: JSX.Element[] = [
-        <BestSkills name="TeamWork" icon={<i className="bi bi-people-fill"></i>} />,
-        <BestSkills name="Engagement" icon={<i className="bi bi-megaphone-fill"></i>} />,
-        <BestSkills name="Professionalism" icon={<i className="bi bi-person-raised-hand"></i>}/>
+        <BestSkills
+            name="TeamWork"
+            icon={<i className="bi bi-people-fill"></i>}
+        />,
+        <BestSkills
+            name="Engagement"
+            icon={<i className="bi bi-megaphone-fill"></i>}
+        />,
+        <BestSkills
+            name="Professionalism"
+            icon={<i className="bi bi-person-raised-hand"></i>}
+        />,
     ];
 
     return (
@@ -27,7 +36,12 @@ export default function () {
             <div className="col-sm-8 col-12 d-flex flex-column justify-content-center p-3">
                 <h1 className="mb-4">Víctor Gutiérrez Tovar</h1>
                 <h2>Ingeniero Software en busca de practicas</h2>
-                <div className="d-flex align-items-center flex-wrap ps-3">{...bestSkills}</div>
+                <div className="d-flex align-items-center flex-wrap ps-3">
+                    {...bestSkills}
+                </div>
+                <div className="d-flex justify-content-end me-5">
+                    <button className="btn btn-primary p-3"><div className="h4 m-0">Contact me!</div></button>
+                </div>
             </div>
             <div className="col-sm-4 col-12 d-flex justify-content-center align-items-center">
                 <img

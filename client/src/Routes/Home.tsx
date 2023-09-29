@@ -2,7 +2,7 @@ import Presentation from "../utils/Presentation";
 
 export default function () {
     return (
-        <div style={{margin:"5%"}}>
+        <div className="m-2">
             <Presentation />
         </div>
     );

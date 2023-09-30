@@ -33,9 +33,13 @@ export default function () {
 
     return (
         <div className="d-flex justify-content-between flex-wrap-reverse">
+            {/* Nombre y resumen */}
             <div className="col-sm-8 col-12 d-flex flex-column justify-content-center p-3">
+                {/* nombre */}
                 <h1 className="mb-4">Víctor Gutiérrez Tovar</h1>
-                <h2>Ingeniero Software en busca de practicas</h2>
+                {/* resumen */}
+                <h2>Final Year Software Engineering Student with Full Stack and Data Engineering Skills</h2>
+                {/* skills */}
                 <div className="d-flex align-items-center flex-wrap ps-3">
                     {...bestSkills}
                 </div>
@@ -43,6 +47,7 @@ export default function () {
                     <button className="btn btn-primary p-3"><div className="h4 m-0">Contact me!</div></button>
                 </div>
             </div>
+            {/* imagen */}
             <div className="col-sm-4 col-12 d-flex justify-content-center align-items-center">
                 <img
                     src={cvPhoto}

@@ -1,11 +1,11 @@
 import Presentation from "../utils/Presentation";
-import Projects from "../utils/Projects";
+import Carousel from "../utils/Carousel";
 
 export default function () {
     return (
         <div className="m-2">
             <Presentation />
-            <Projects/>
+            <Carousel/>
         </div>
     );
 }

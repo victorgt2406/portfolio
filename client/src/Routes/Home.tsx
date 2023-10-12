@@ -5,7 +5,9 @@ export default function () {
     return (
         <div className="m-2">
             <Presentation />
-            <Carousel/>
+            <div className="container">
+                <Carousel />
+            </div>
         </div>
     );
 }

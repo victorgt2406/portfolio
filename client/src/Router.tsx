@@ -1,10 +1,11 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./Routes/Home";
+import MyNavBar from "./utils/MyNavBar";
 
 const router = createBrowserRouter([
     {
         path: "/",
-        element: <Home/>,
+        element: <><MyNavBar/><Home/></>,
     },
     {
         path: "contact",

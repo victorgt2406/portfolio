@@ -1,10 +1,59 @@
+import { useContext } from "react";
+import { Link } from "react-router-dom";
+import Context from "../Context";
 
+type ElementProps = {
+    title: string;
+    link?: string;
+    onClick?: () => void;
+    icon: JSX.Element;
+};
 
-export default function(){
-    return (
-        <div className="d-flex justify-content-end">
-            <div>Language</div>
-            <div>Contact</div>
+function Element(props: ElementProps) {
+    const { link, title, onClick, icon } = props;
+    const isLink = link !== undefined;
+    const element = (
+        <div className="p-2 d-flex">
+            {icon}
+            <div className="ps-2">{title}</div>
         </div>
     );
+    if (isLink) {
+        return (
+            <Link to={link} className="navbar-element">
+                {element}
+            </Link>
+        );
+    } else {
+        return (
+            <div className="navbar-element" onClick={onClick}>
+                {element}
+            </div>
+        );
+    }
+}
+
+export default function () {
+    const {dark, setDark} = useContext(Context);
+    const elements: JSX.Element[] = [
+        <Element
+            title={"Contact"}
+            link={"contact"}
+            icon={<i className="bi bi-person-lines-fill"></i>}
+        />,
+        <Element
+            title={dark==="light" ? "Dark" : "Light"}
+            onClick={() => {
+                setDark(dark==="light" ? "dark" : "light");
+            }}
+            icon={
+                dark==="light" ? (
+                    <i className="bi bi-moon-stars-fill"></i>
+                ) : (
+                    <i className="bi bi-brightness-high-fill"></i>
+                )
+            }
+        />,
+    ];
+    return <div className="d-flex justify-content-end">{...elements}</div>;
 }

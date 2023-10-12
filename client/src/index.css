@@ -1,10 +1,15 @@
-:root {
-}
-
-/* If you want to set the default text color and background for the entire document */
-body {
-}
-
 * {
   font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar-element {
+  display: block; /* Makes the <a> element behave like a block-level element */
+  background-color: transparent; /* Resets background color */
+  text-decoration: none; /* Removes underline */
+  color: inherit; /* Inherits text color from parent element */
+}
+
+.navbar-element:hover {
+  text-decoration: underline;
+  color: var(--bs-primary);
 }

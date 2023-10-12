@@ -43,9 +43,6 @@ export default function () {
                 <div className="d-flex align-items-center flex-wrap ps-3">
                     {...bestSkills}
                 </div>
-                <div className="d-flex justify-content-center pt-4 pb-4">
-                    <button className="btn btn-primary p-3"><div className="h4 m-0">Contact me!</div></button>
-                </div>
             </div>
             {/* imagen */}
             <div className="col-sm-4 col-12 d-flex justify-content-center align-items-center">

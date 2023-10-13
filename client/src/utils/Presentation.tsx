@@ -38,7 +38,7 @@ export default function () {
                 {/* nombre */}
                 <h1 className="mb-4">Víctor Gutiérrez Tovar</h1>
                 {/* resumen */}
-                <h2>Final Year Software Engineering Student with Full Stack and Data Engineering Skills</h2>
+                <h4>Final Year Software Engineering Student with Full Stack and Data Engineering Skills</h4>
                 {/* skills */}
                 <div className="d-flex align-items-center flex-wrap ps-3">
                     {...bestSkills}

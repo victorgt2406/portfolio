@@ -1,0 +1,26 @@
+{
+    "presentation": {
+        "fullname": "Víctor Gutiérrez Tovar",
+        "name": "Víctor",
+        "surnames": ["Gutiérrez", "Tovar"]
+    },
+    "skills": [
+        {
+            "title": "",
+            "icon": "",
+            "labels": []
+        }
+    ],
+    "projects": [
+        {
+            "title": "",
+            "description": "",
+            "links": [
+                {
+                    "title": "",
+                    "link": ""
+                }
+            ]
+        }
+    ]
+}

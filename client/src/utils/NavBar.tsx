@@ -20,13 +20,13 @@ function Element(props: ElementProps) {
     );
     if (isLink) {
         return (
-            <Link to={link} className="navbar-element">
+            <Link to={link}>
                 {element}
             </Link>
         );
     } else {
         return (
-            <div className="navbar-element" onClick={onClick}>
+            <div className="a" onClick={onClick}>
                 {element}
             </div>
         );

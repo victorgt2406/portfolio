@@ -8,14 +8,24 @@ body{
   font-family: 'Ubuntu', sans-serif;
 }
 
-.navbar-element {
+a, .a {
   display: block; /* Makes the <a> element behave like a block-level element */
   background-color: transparent; /* Resets background color */
   text-decoration: none; /* Removes underline */
-  color: inherit; /* Inherits text color from parent element */
+  color: var(--bs-info); /* Inherits text color from parent element */
 }
 
-.navbar-element:hover {
+a:hover, .a:hover {
   text-decoration: underline;
+  transition: tex-decoration 0.4s ease, color 0.4s ease;
   color: var(--bs-primary);
+}
+
+.carousel-inner{
+  border-radius: 20px;
+}
+
+.carousel-item{
+  background-color: var(--bs-dark);
+  color: var(--bs-light);
 }

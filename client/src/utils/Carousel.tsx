@@ -1,5 +1,4 @@
 import CarouselProject from "./CarouselItems/CarouselProject";
-import IconLink, { IconLinkType } from "./IconLink";
 
 export default function () {
     return (
@@ -46,7 +45,7 @@ export default function () {
                             </text>
                         </svg>
                     </div>
-                    <CarrouselItem
+                    <CarouselProject
                         title="U-tad Sports"
                         description="Mejor Aplicación Proyectos"
                         links={[

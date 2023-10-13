@@ -1,7 +1,13 @@
 :root {
+    --background: #000;
+    --text: #fff;
+    --bs-primary: #0d6efd; /* Blue */
+    --bs-secondary: #6c757d; /* Gray */
+    --bs-info: #0dcaf0; /* Cyan */
+    --bs-success: #198754; /* Green */
+    --bs-warning: #ffc107; /* Yellow */
+    --bs-danger: #dc3545; /* Red */
+    --bs-light: #212529; /* Light */
+    --bs-dark: #f8f9fa; /* Dark */
 }
 
-/* If you want to set the default text color and background for the entire document */
-body {
-    background-color: black;
-}

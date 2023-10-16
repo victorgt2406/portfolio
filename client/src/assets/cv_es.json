@@ -1,0 +1,216 @@
+{
+    "presentation": {
+        "fullname": "Víctor Gutiérrez Tovar",
+        "name": "Víctor",
+        "surnames": "Gutiérrez Tovar"
+    },
+    "skills": [
+        {
+            "title": "Trabajo en equipo",
+            "icon": "",
+            "labels": ["competencias interpersonales"]
+        },
+        {
+            "title": "Comunicación",
+            "icon": "",
+            "labels": ["competencias interpersonales"]
+        },
+        {
+            "title": "Servicio al cliente",
+            "icon": "",
+            "labels": ["competencias interpersonales"]
+        },
+        {
+            "title": "AWS (Amazon Web Service)",
+            "icon": "",
+            "labels": ["software", "backend", "cloud"]
+        },
+        {
+            "title": "Docker",
+            "icon": "",
+            "labels": ["software", "backend", "cloud"]
+        },
+        {
+            "title": "Kubernetes",
+            "icon": "",
+            "labels": ["software", "backend", "cloud"]
+        },
+        {
+            "title": "Python",
+            "icon": "",
+            "labels": ["software", "big data", "lenguajes de programación"]
+        },
+        {
+            "title": "Java",
+            "icon": "",
+            "labels": ["software", "lenguajes de programación"]
+        },
+        {
+            "title": "C",
+            "icon": "",
+            "labels": ["software", "lenguajes de programación"]
+        },
+        {
+            "title": "C++",
+            "icon": "",
+            "labels": ["software", "lenguajes de programación"]
+        },
+        {
+            "title": "JavaScript",
+            "icon": "",
+            "labels": [
+                "software",
+                "frontend",
+                "web",
+                "lenguajes de programación"
+            ]
+        },
+        {
+            "title": "NodeJS",
+            "icon": "",
+            "labels": ["software", "backend", "web"]
+        },
+        {
+            "title": "TypeScript",
+            "icon": "",
+            "labels": [
+                "software",
+                "frontend",
+                "backend",
+                "web",
+                "lenguajes de programación"
+            ]
+        },
+        {
+            "title": "MongoDB",
+            "icon": "",
+            "labels": ["software", "bases de datos"]
+        },
+        {
+            "title": "Neo4j",
+            "icon": "",
+            "labels": ["software", "bases de datos"]
+        },
+        {
+            "title": "Redis",
+            "icon": "",
+            "labels": ["software", "bases de datos"]
+        },
+        {
+            "title": "MySql",
+            "icon": "",
+            "labels": ["software", "bases de datos"]
+        },
+        {
+            "title": "MariaDB",
+            "icon": "",
+            "labels": ["software", "bases de datos"]
+        },
+        {
+            "title": "Español (nativo)",
+            "icon": "",
+            "labels": ["idioma"]
+        },
+        {
+            "title": "Inglés (C1)",
+            "icon": "",
+            "labels": ["idioma"]
+        }
+    ],
+    "education": [
+        {
+            "company": "Idaho Falls High School",
+            "icon": "",
+            "location": "Idaho, Estados Unidos",
+            "start": "2018-08-01",
+            "end": "2019-05-31",
+            "years": [
+                {
+                    "start": "2018-08-01",
+                    "end": "2019-05-31",
+                    "title": "Primero de Bachillerato (11th grade)",
+                    "honors": []
+                }
+            ]
+        },
+        {
+            "company": "Colegio San Gabriel Madrid",
+            "icon": "",
+            "location": "Madrid, España",
+            "start": "2019-09-01",
+            "end": "2020-06-30",
+            "years": [
+                {
+                    "start": "2019-09-01",
+                    "end": "2020-06-30",
+                    "title": "Segundo de Bachillerato (12th grade)",
+                    "honors": []
+                }
+            ]
+        },
+        {
+            "company": "U-tad",
+            "icon": "",
+            "location": "Madrid, España",
+            "start": "2020-10-01",
+            "end": "2024-06-01",
+            "years": [
+                {
+                    "start": "2020-10-01",
+                    "end": "2019-05-31",
+                    "title": "Primero de Ingeniería del Software",
+                    "honors": ["Matrícula de honor en Introducción a la Programación II"]
+                },
+                {
+                    "start": "2020-09-01",
+                    "end": "2019-05-31",
+                    "title": "Segundo de Ingeniería del Software",
+                    "honors": []
+                },
+                {
+                    "start": "2022-09-18",
+                    "end": "2023-05-31",
+                    "title": "Tercero de Ingeniería del Software",
+                    "honors": ["Matrícula de honor en Sistemas Distribuidos"]
+                },
+                {
+                    "start": "2023-09-14",
+                    "end": "2024-06-01",
+                    "title": "Cuarto de Ingeniería del Software",
+                    "honors": []
+                }
+            ]
+        }
+    ],
+    "experience": [
+        {
+            "company": "Cedar Fair | Valleyfair",
+            "image": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/0c64b49580bcd35a0d795195d5ac7c36",
+            "positions": [
+                {
+                    "title": "Operador de máquinas",
+                    "description": [""],
+                    "skills": [
+                        "trabajo en equipo",
+                        "liderazgo",
+                        "interaccion al público"
+                    ]
+                }
+            ],
+            "start": "2023-07-01",
+            "end": "2023-09-17"
+        }
+    ],
+    "projects": [
+        {
+            "title": "",
+            "description": "",
+            "links": [
+                {
+                    "title": "",
+                    "link": ""
+                }
+            ]
+        }
+    ]
+}

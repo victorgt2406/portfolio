@@ -11,3 +11,7 @@
     --bs-dark: #f8f9fa; /* Dark */
 }
 
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    color: #000 !important;
+}
+

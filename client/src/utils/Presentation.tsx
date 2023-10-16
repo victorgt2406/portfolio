@@ -32,7 +32,7 @@ export default function () {
     ];
 
     return (
-        <div className="d-flex justify-content-between flex-wrap-reverse">
+        <div className="d-flex justify-content-between flex-wrap-reverse w-100">
             {/* Nombre y resumen */}
             <div className="col-sm-8 col-12 d-flex flex-column justify-content-center p-3">
                 {/* nombre */}

@@ -4,13 +4,15 @@ export default function ({
     title,
     description,
     links,
+    active=false
 }: {
     title: string;
     description: string;
     links: IconLinkType[];
+    active?:boolean;
 }) {
     return (
-        <div className="carousel-item">
+        <div className={`carousel-item${active?" active":""}`}>
             <div
                 className="justify-content-center row"
             >

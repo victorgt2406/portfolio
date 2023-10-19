@@ -21,8 +21,12 @@ a:hover, .a:hover {
   color: var(--bs-primary);
 }
 
-.carousel-inner{
+.carousel-inner, .card{
   border-radius: 20px;
+}
+
+.card{
+  padding:10px;
 }
 
 .carousel-item{

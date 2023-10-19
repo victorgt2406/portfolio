@@ -2,6 +2,7 @@ import Presentation from "../utils/Presentation";
 import Carousel from "../utils/Carousel";
 import NavBar from "../utils/NavBar";
 import Skills from "../utils/Skills";
+import Projects from "../utils/Projects";
 
 export default function () {
     return (
@@ -11,6 +12,7 @@ export default function () {
                 <Presentation />
                 <Carousel />
                 <Skills/>
+                <Projects/>
             </div>
         </>
     );

@@ -1,4 +1,4 @@
-import cvPhoto from "../assets/cv_photo.png";
+import cvPhoto from "../../assets/cv_photo.png";
 
 type BestSkillsProps = {
     name: string;

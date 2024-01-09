@@ -1,21 +1,19 @@
-import IconLink, { IconLinkType } from "../../utils/IconLink";
+import IconLink, { IconLinkType } from "../../../Template/IconLink";
 
-export default function CarouserProject ({
+export default function CarouserProject({
     title,
     description,
     links,
-    active=false
+    active = false,
 }: {
     title: string;
     description: string;
     links: IconLinkType[];
-    active?:boolean;
+    active?: boolean;
 }) {
     return (
-        <div className={`carousel-item${active?" active":""}`}>
-            <div
-                className="justify-content-center row"
-            >
+        <div className={`carousel-item${active ? " active" : ""}`}>
+            <div className="justify-content-center row">
                 {/* 16:9 pictures */}
                 <img
                     src="https://i.pinimg.com/originals/8c/97/d2/8c97d27b9fff8d200a0cd11ebb21525f.jpg"

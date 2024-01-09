@@ -4,7 +4,7 @@ type IconLinkType = {
     icon: JSX.Element;
 };
 
-export default function ({ link, icon, title }: IconLinkType) {
+export default function IconLink({ link, icon, title }: IconLinkType) {
     return (
         <a className="icon-link" href={link} target="_blank">
             {icon}
@@ -13,4 +13,4 @@ export default function ({ link, icon, title }: IconLinkType) {
     );
 }
 
-export type {IconLinkType};
+export type { IconLinkType };

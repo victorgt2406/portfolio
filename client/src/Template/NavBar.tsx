@@ -9,6 +9,7 @@ type ElementProps = {
     icon: JSX.Element;
 };
 
+// Button and Link at the same time, to make sure to hace same style.
 function Element(props: ElementProps) {
     const { link, title, onClick, icon } = props;
     const isLink = link !== undefined;
@@ -19,11 +20,7 @@ function Element(props: ElementProps) {
         </div>
     );
     if (isLink) {
-        return (
-            <Link to={link}>
-                {element}
-            </Link>
-        );
+        return <Link to={link}>{element}</Link>;
     } else {
         return (
             <div className="a" onClick={onClick}>
@@ -33,8 +30,8 @@ function Element(props: ElementProps) {
     }
 }
 
-export default function () {
-    const {dark, setDark} = useContext(Context);
+export default function NavBar() {
+    const { dark, setDark } = useContext(Context);
     const elements: JSX.Element[] = [
         <Element
             title={"Contact"}
@@ -42,12 +39,12 @@ export default function () {
             icon={<i className="bi bi-person-lines-fill"></i>}
         />,
         <Element
-            title={dark==="light" ? "Dark" : "Light"}
+            title={dark === "light" ? "Dark" : "Light"}
             onClick={() => {
-                setDark(dark==="light" ? "dark" : "light");
+                setDark(dark === "light" ? "dark" : "light");
             }}
             icon={
-                dark==="light" ? (
+                dark === "light" ? (
                     <i className="bi bi-moon-stars-fill"></i>
                 ) : (
                     <i className="bi bi-brightness-high-fill"></i>

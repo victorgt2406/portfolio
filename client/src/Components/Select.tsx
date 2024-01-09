@@ -30,10 +30,7 @@ function Divider() {
     );
 }
 
-function Lists({
-    options,
-    setOption,
-}: {
+function Lists({ options, setOption, }: {
     options: string[];
     setOption: (option: string) => void;
 }) {
@@ -93,7 +90,7 @@ export default function Select({ options, title, onChange }: MyProps) {
         <div className="btn-group">
             <button
                 type="button"
-                className="btn btn-primary dropdown-toggle"
+                className="btn btn-outline-info dropdown-toggle"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
             >

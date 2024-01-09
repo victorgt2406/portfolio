@@ -1,6 +1,8 @@
 import { useContext } from "react";
 import { Link } from "react-router-dom";
-import Context from "../Context";
+import Context, { Darkmode } from "../Context";
+import Select from "../Components/Select";
+import capitalizeFirstLetter from "../utils/capitalizeFirstLetter";
 
 type ElementProps = {
     title: string;
@@ -38,19 +40,10 @@ export default function NavBar() {
             link={"contact"}
             icon={<i className="bi bi-person-lines-fill"></i>}
         />,
-        <Element
-            title={dark === "light" ? "Dark" : "Light"}
-            onClick={() => {
-                setDark(dark === "light" ? "dark" : "light");
-            }}
-            icon={
-                dark === "light" ? (
-                    <i className="bi bi-moon-stars-fill"></i>
-                ) : (
-                    <i className="bi bi-brightness-high-fill"></i>
-                )
-            }
-        />,
+        <Select options={["dark", "light"]} title={capitalizeFirstLetter(dark)} onChange={(option: string) => {
+
+            setDark(option as Darkmode);
+        }} />
     ];
     return <div className="d-flex justify-content-end">{...elements}</div>;
 }

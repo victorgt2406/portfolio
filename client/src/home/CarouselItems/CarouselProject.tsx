@@ -1,6 +1,6 @@
-import IconLink, { IconLinkType } from "../IconLink";
+import IconLink, { IconLinkType } from "../../utils/IconLink";
 
-export default function ({
+export default function CarouserProject ({
     title,
     description,
     links,

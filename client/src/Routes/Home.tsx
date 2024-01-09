@@ -1,10 +1,10 @@
-import Presentation from "../utils/Presentation";
-import Carousel from "../utils/Carousel";
+import Carousel from "../home/Carousel";
+import Presentation from "../home/Presentation";
+import Projects from "../home/Projects";
+import Skills from "../home/Skills";
 import NavBar from "../utils/NavBar";
-import Skills from "../utils/Skills";
-import Projects from "../utils/Projects";
 
-export default function () {
+export default function Home () {
     return (
         <>
             <NavBar/>

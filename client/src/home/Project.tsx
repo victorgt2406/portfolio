@@ -1,4 +1,4 @@
-export default function () {
+export default function Project() {
     return (
         <div className="card" style={{ width: "18rem" }}>
             <img

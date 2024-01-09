@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import Router from "./Router.tsx";
+import Router from "./Routes/Router.tsx";
 import { ContextProvider } from "./Context.tsx";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(

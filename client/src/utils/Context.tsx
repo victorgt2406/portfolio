@@ -32,11 +32,11 @@ function ContextProvider ({ children }: { children: React.ReactNode }) {
         switch(dark){
             case "light":
                 // alert("light mode");
-                document.getElementById('style')!.setAttribute('href', "src/styles/light.css");
+                document.getElementById('style')!.setAttribute('href', "/styles/light.css");
                 break;
             case "dark":
                 // alert("dark mode");
-                document.getElementById('style')!.setAttribute('href', "src/styles/dark.css");
+                document.getElementById('style')!.setAttribute('href', "/styles/dark.css");
                 break;
             case "system":
                 break;

@@ -199,6 +199,28 @@
             ],
             "start": "2023-07-01",
             "end": "2023-09-17"
+        },
+        {
+            "company": "Tabacalera",
+            "image": "https://media.licdn.com/dms/image/C4D0BAQHGDmfvQgGqdQ/company-logo_200_200/0/1630579461247/tabacalera_logo?e=2147483647&v=beta&t=raoSEEia3kncJpXogLiBL_5ModjD1DyAs-JFXQnc3Yw",
+            "positions": [
+                {
+                    "title": "prácticas Data engineer",
+                    "description": [""],
+                    "skills": [
+                        "Elasticsearch",
+                        "Kibana",
+                        "OpenSearch",
+                        "OpenSearch Dashboard",
+                        "Microsoft Graph",
+                        "Python",
+                        "Microservices",
+                        "Hyper V & Microsoft Windows Servers"
+                    ]
+                }
+            ],
+            "start": "2024-02-01",
+            "end": "2023-03-15"
         }
     ],
     "projects": [

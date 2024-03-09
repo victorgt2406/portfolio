@@ -1,4 +1,4 @@
-import { ReactNode, useState } from "react";
+import { ReactNode, useEffect, useState } from "react";
 
 type MyProps = {
     options: string[] | string[][];
@@ -55,6 +55,12 @@ export default function Select({ options, title, onChange }: MyProps) {
             title = options[0][0];
         }
     }
+
+    useEffect(() => {
+        if (title !== undefined) {
+            setOption(title);
+        }
+    }, [title]); // Este efecto se ejecuta cada vez que `initialTitle` cambia.
 
     let lists: ReactNode[] = [];
     const [option, setOption] = useState<string>(title!);

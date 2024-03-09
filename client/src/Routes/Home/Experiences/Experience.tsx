@@ -1,3 +1,4 @@
+import Position from "./Position";
 
 
 type MyProps = {
@@ -13,17 +14,31 @@ type MyProps = {
 };
 
 
-export default function Experience({ image, company, start, end }: MyProps) {
-    return (
-        <div className="d-flex">
-            <div className="d-flex">
-                <img src={image}/>
-                <div>{company}</div>
-            </div>
+export default function Experience({ image, company, start, end, positions:poss }: MyProps) {
 
-            <div className="d-flex">
-                <div>{start}</div>
-                <div>{end}</div>
+    const positions = poss.map((pos)=><Position {...pos}/>)
+
+    return (
+        <div className="experience">
+            <div className="d-flex w-100 align-items-center justify-content-between">
+                <div className="d-flex align-items-center p-2">
+                    <img
+                        style={{
+                            height: "80px",
+                            width: "80px"
+                        }}
+                        src={image}
+                        className="pe-2"
+                    />
+                    <div className="ps-2">{company}</div>
+                </div>
+                <div className="d-flex justify-content-end p-2">
+                    <div className="pe-2">{start}</div>
+                    <div className="ps-2">{end}</div>
+                </div>
+            </div>
+            <div>
+                {...positions}
             </div>
         </div>
     );

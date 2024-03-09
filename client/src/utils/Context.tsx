@@ -9,9 +9,10 @@ const CV = {
 };
 
 type Lang = "en" | "es";
+const LANGS = ["en", "es"];
 
 type Darkmode = "Light ☀️" | "Dark 🌙" | "System 💻";
-const DARKMODE = ["Light ☀️", "Dark 🌙", "System 💻"];
+const DARKMODES = ["Light ☀️", "Dark 🌙", "System 💻"];
 
 type ContextProps = {
     cv: CVtype;
@@ -127,6 +128,6 @@ function ContextProvider({ children }: { children: React.ReactNode }) {
 
 export default Context;
 
-export { ContextProvider, DARKMODE };
+export { ContextProvider, DARKMODES, LANGS };
 
-export type { Lang as Langs, Darkmode };
+export type { Lang, Darkmode };

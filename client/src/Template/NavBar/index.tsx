@@ -1,8 +1,8 @@
 import { useContext } from "react";
 import { Link } from "react-router-dom";
-import Context, { Darkmode } from "../utils/Context";
-import Select from "../Components/Select";
-import capitalizeFirstLetter from "../utils/capitalizeFirstLetter";
+import Context, { Darkmode } from "../../utils/Context";
+import Select from "../../Components/Select";
+import capitalizeFirstLetter from "../../utils/capitalizeFirstLetter";
 
 type ElementProps = {
     title: string;

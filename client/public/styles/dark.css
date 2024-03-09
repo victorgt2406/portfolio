@@ -9,9 +9,7 @@
     --bs-danger: #dc3545; /* Red */
     --bs-light: #212529; /* Light */
     --bs-dark: #f8f9fa; /* Dark */
-}
-
-.carousel-control-prev-icon, .carousel-control-next-icon{
-    color: #000 !important;
+    --bs-white: #000; /* White */
+    --bs-black: #fff; /* Black */
 }
 

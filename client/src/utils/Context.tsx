@@ -1,13 +1,14 @@
-import React, { createContext, useState } from "react";
+import React, { createContext, useEffect, useState } from "react";
 import { CV as CVtype } from "./CVtype";
 import cv_es from "../assets/cv_es.json";
+import Cookies from "js-cookie";
 
 const CV = {
-    "en": cv_es,
-    "es": cv_es
-}
+    en: cv_es,
+    es: cv_es,
+};
 
-type Langs = "en" | "es";
+type Lang = "en" | "es";
 
 type Darkmode = "light" | "dark" | "system";
 
@@ -15,8 +16,8 @@ type ContextProps = {
     cv: CVtype;
     dark: Darkmode;
     setDark: (dark: Darkmode) => void;
-    lang: Langs;
-    setLang: (lang: Langs) => void;
+    lang: Lang;
+    setLang: (lang: Lang) => void;
 };
 
 const defaultValues: ContextProps = {
@@ -32,42 +33,48 @@ const defaultValues: ContextProps = {
         presentation: {
             fullname: "",
             name: "",
-            surnames: ""
+            surnames: "",
         },
         skills: [],
         education: [],
         experience: [],
-        projects: []
-    }
+        projects: [],
+    },
 };
 
 const Context = createContext<ContextProps>(defaultValues);
 
 function ContextProvider({ children }: { children: React.ReactNode }) {
     const [dark, setDark] = useState<Darkmode>("light");
-    const [lang, setLang] = useState<Langs>("es");
+    const [lang, setLang] = useState<Lang>("es");
     const [cv, setCv] = useState<CVtype>(cv_es);
 
     const handleSetDark = (dark: Darkmode) => {
         switch (dark) {
             case "light":
                 // alert("light mode");
-                document.getElementById('style')!.setAttribute('href', "/styles/light.css");
+                document
+                    .getElementById("style")!
+                    .setAttribute("href", "/styles/light.css");
                 break;
             case "dark":
                 // alert("dark mode");
-                document.getElementById('style')!.setAttribute('href', "/styles/dark.css");
+                document
+                    .getElementById("style")!
+                    .setAttribute("href", "/styles/dark.css");
                 break;
             case "system":
                 break;
         }
         setDark(dark);
-    }
+        Cookies.set("dark", dark);
+    };
 
-    const handleSetLanguage = (lang: Langs) => {
-        setCv(CV[lang])
+    const handleSetLanguage = (lang: Lang) => {
+        setCv(CV[lang]);
         setLang(lang);
-    }
+        Cookies.set("lang", lang);
+    };
 
     const value: ContextProps = {
         cv,
@@ -77,6 +84,21 @@ function ContextProvider({ children }: { children: React.ReactNode }) {
         setLang: handleSetLanguage,
     };
 
+    useEffect(() => {
+        if (Cookies.get("dark")) handleSetDark(Cookies.get("dark") as Darkmode);
+        if (Cookies.get("lang")) handleSetLanguage(Cookies.get("lang") as Lang);
+        Cookies.set(
+            "visits",
+            JSON.stringify([
+                ...(Cookies.get("visits")
+                    ? JSON.parse(Cookies.get("visits")!)
+                    : []),
+                new Date().toISOString(),
+            ])
+        );
+        console.log(JSON.parse(Cookies.get("visits")!));
+    }, []);
+
     return <Context.Provider value={value}>{children}</Context.Provider>;
 }
 
@@ -84,4 +106,4 @@ export default Context;
 
 export { ContextProvider };
 
-export type { Langs, Darkmode };
+export type { Lang as Langs, Darkmode };

@@ -1,4 +1,3 @@
-import Select from "../../Components/Select";
 import NavBar from "../../Template/NavBar";
 import Carousel from "./Carousel";
 import Experiences from "./Experiences";
@@ -17,7 +16,6 @@ export default function Home() {
                 <Experiences/>
                 <Projects />
             </div>
-            <Select options={["hello", "bye", "good"]}/>
         </>
     );
 }

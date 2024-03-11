@@ -1,8 +1,9 @@
 import { useContext } from "react";
-import Context, { DARKMODES, Darkmode, LANGS, Lang } from "../../utils/Context";
+import Context from "../../utils/Context";
 import Select from "../Select";
 import Element from "./Element";
 import Spacer from "./Spacer";
+import { DARKMODES, Darkmode, LANGS, Lang } from "../../utils/types";
 
 export default function NavBar() {
     const { dark, setDark, lang, setLang } = useContext(Context);

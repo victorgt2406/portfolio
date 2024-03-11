@@ -2,17 +2,13 @@ import React, { createContext, useEffect, useState } from "react";
 import { CV as CVtype } from "./CVtype";
 import cv_es from "../assets/cv_es.json";
 import Cookies from "js-cookie";
+import getSystemLang from "./getSystemLang";
+import { Darkmode, Lang } from "./types";
 
 const CV = {
     en: cv_es,
     es: cv_es,
 };
-
-type Lang = "en" | "es";
-const LANGS = ["en", "es"];
-
-type Darkmode = "Light ☀️" | "Dark 🌙" | "System 💻";
-const DARKMODES = ["Light ☀️", "Dark 🌙", "System 💻"];
 
 type ContextProps = {
     cv: CVtype;
@@ -47,8 +43,8 @@ const defaultValues: ContextProps = {
 const Context = createContext<ContextProps>(defaultValues);
 
 function ContextProvider({ children }: { children: React.ReactNode }) {
-    const [dark, setDark] = useState<Darkmode>("Light ☀️");
-    const [lang, setLang] = useState<Lang>("es");
+    const [dark, setDark] = useState<Darkmode>("System 💻");
+    const [lang, setLang] = useState<Lang>(getSystemLang());
     const [cv, setCv] = useState<CVtype>(cv_es);
 
     const handleSetDark = (dark: Darkmode) => {
@@ -104,7 +100,9 @@ function ContextProvider({ children }: { children: React.ReactNode }) {
 
     useEffect(() => {
         if (Cookies.get("dark")) handleSetDark(Cookies.get("dark") as Darkmode);
+        else handleSetDark(dark)
         if (Cookies.get("lang")) handleSetLanguage(Cookies.get("lang") as Lang);
+        else handleSetLanguage(lang)
         Cookies.set(
             "visits",
             JSON.stringify([
@@ -121,13 +119,12 @@ function ContextProvider({ children }: { children: React.ReactNode }) {
         return () => {
             systemDark.removeEventListener('change', handleSystemDarkmode);
         };
-    }, []);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    },[]);
 
     return <Context.Provider value={value}>{children}</Context.Provider>;
 }
 
 export default Context;
 
-export { ContextProvider, DARKMODES, LANGS };
-
-export type { Lang, Darkmode };
+export { ContextProvider };

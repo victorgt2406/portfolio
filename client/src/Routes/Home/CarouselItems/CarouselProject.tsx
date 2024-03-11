@@ -1,4 +1,4 @@
-import IconLink, { IconLinkType } from "../../../Template/IconLink";
+import IconLink, { IconLinkType } from "../../../Components/IconLink";
 
 export default function CarouserProject({
     title,

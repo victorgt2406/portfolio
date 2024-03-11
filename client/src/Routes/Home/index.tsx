@@ -1,4 +1,4 @@
-import NavBar from "../../Template/NavBar";
+import NavBar from "../../Components/NavBar";
 import Carousel from "./Carousel";
 import Experiences from "./Experiences";
 import Presentation from "./Presentation";

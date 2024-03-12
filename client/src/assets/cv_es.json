@@ -227,7 +227,7 @@
         {
             "id": "u-tadSports",
             "title": "U-tad Sports",
-            "description": "",
+            "description": "Durante el tercer año de Ingeniería del Software, mi equipo y yo desarrollamos un proyecto que fue galardonado como la mejor aplicación en una competición contra otras dos clases que trabajaban en el mismo desafío. Nuestra creación fue una aplicación destinada a torneos, diseñada para permitir que los estudiantes se inscriban en diversas actividades y competiciones, así como para monitorear sus progresos y resultados históricos, incluyendo también la gestión y seguimiento de los equipos.<br>Utilizamos las tecnologías React (front), NodeJs (back) y MongoDB(db).",
             "links": [
                 {
                     "title": "",

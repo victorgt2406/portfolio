@@ -8,6 +8,10 @@ body{
   font-family: 'Ubuntu', sans-serif;
 }
 
+.text-justify {
+  text-align: justify;
+}
+
 a, .a, .a-nolink {
   display: block; /* Makes the <a> element behave like a block-level element */
   background-color: transparent; /* Resets background color */

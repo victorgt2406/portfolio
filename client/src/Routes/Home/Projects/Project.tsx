@@ -74,7 +74,7 @@ export default function Project({
                 alt={`${title} image`}
                 style={{
                     maxHeight: "600px",
-                    width: "auto",
+                    width: "100%",
                     objectFit: "scale-down",
                 }}
             />

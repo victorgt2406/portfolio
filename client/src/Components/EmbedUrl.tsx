@@ -5,9 +5,11 @@ type MyProps = {
 };
 
 export default function EmbedUrl({ children }: MyProps) {
-    return children == "" ? (
-        <></>
-    ) : (
-        <Microlink url={children} className={"embed-url"} />
+    if (children == "") {
+        return <></>;
+    }
+
+    return (
+    <Microlink url={children} className={"embed-url col"} />
     );
 }

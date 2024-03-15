@@ -53,3 +53,16 @@ a:hover, .a:hover {
   background-color: var(--bs-white);
 }
 
+
+@media screen and (max-width: 550px) {
+  .embed-url {
+    /* Set the width dynamically based on the viewport width */
+    width: calc((4 / 3 * (100vw - 310px)) + 200px);
+  
+    /* Ensure the width doesn't go below 200px for very small devices */
+    min-width: 200px;
+  
+    /* Optional: max-width to prevent the element from becoming too wide on larger screens */
+    max-width: 300px;
+  }
+}

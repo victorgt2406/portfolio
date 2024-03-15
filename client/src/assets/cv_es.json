@@ -227,28 +227,28 @@
         {
             "id": "u-tadSports",
             "title": "U-tad Sports",
-            "description": "Durante el tercer año de Ingeniería del Software, mi equipo y yo desarrollamos un proyecto que fue galardonado como la mejor aplicación en una competición contra otras dos clases que trabajaban en el mismo desafío. Nuestra creación fue una aplicación destinada a torneos, diseñada para permitir que los estudiantes se inscriban en diversas actividades y competiciones, así como para monitorear sus progresos y resultados históricos, incluyendo también la gestión y seguimiento de los equipos.<br>Utilizamos las tecnologías React (front), NodeJs (back) y MongoDB(db).",
+            "description": "<h4>Contexto</h4>Durante el tercer año de Ingeniería del Software, en la asignatura de proyectos, se crearon distintos equipos para dos aplicaciones distintas, tres equipos para una y otro tres equipos para otra. Cada aplicación estaba representado por un cliente, ya que este determinaría cual des ellos cumple con sus requisitos.<br><br>En el caso de nuestro equipo, tuvimos que desarrollar una aplicación de torneos deportivos para la universidad. Tras tres meses de desarrollo tuvimos que presentar el proyecto, y tras la revisión por los distintos clientes, este fue galardonado como la mejor aplicación de los tres equipos. <br><br><h4>Objetivo</h4>Crear una aplicación para la gestión de torneos y actividades deportivos, para permitir que los estudiantes se inscriban en diversas actividades y competiciones, así como para monitorear sus progresos y resultados históricos, incluyendo también la gestión y seguimiento de los equipos.<br><br><h4>Tecnologías</h4><ul><li>React (front)</li><li>NodeJs (back)</li><li>MongoDB (db)</li>",
             "img": "/projects/u-tad_sports/news_web.png",
             "links": [
                 {
-                    "title": "Noticias",
-                    "link": "/projects/u-tad_sports/news_web.png"
+                    "title": "Reconocimiento a la mejor aplicación de la asignatura Proyectos del tercer curso.",
+                    "url": "https://www.linkedin.com/posts/victor-gutierrez-tovar_reconocimiento-a-la-mejor-aplicaci%C3%B3n-de-activity-7112555190678933504-lKK_?utm_source=share&utm_medium=member_desktop"
                 },
                 {
-                    "title": "Noticias",
-                    "link": "/projects/u-tad_sports/news_device.png"
+                    "title": "Publicación de Dánae Cortés.",
+                    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7112472465150230528?utm_source=share&utm_medium=member_desktop"
                 }
             ]
         },
         {
             "id": "laEscoba",
             "title": "La escoba",
-            "description": "",
-            "img": "/projects/u-tad_sports/news_web.png",
+            "description": "Proyecto personal que realice tras finalizar mi primer año de carrera con el escaso conocimiento en las tecnologías css, js y html. No utilice ningun tipo de framework, ni para el diseño y tampoco para el js. Esta código es del año 2021 y estuve aproximadamente 2 semanas en realizorlo. Aunque la web es bastante básica, me ayudo mucho a entender las tripas de JavaScript y su conexión con el DOM. También experimente creando un algoritmo para crear al final un bot que con sistemas de puntos por las diferentes jugadas posibles escogiese este siempre la mejor posible. Es lo suficientemente bueno como para ganarme a mi todo el rato.",
+            "img": "/projects/la_escoba/la_escoba.png",
             "links": [
                 {
                     "title": "La escoba",
-                    "link": "/projects/la_escoba/la_escoba.png"
+                    "url": "https://github.com/victorgt2406/la_escoba"
                 }
             ]
         },
@@ -260,7 +260,7 @@
             "links": [
                 {
                     "title": "",
-                    "link": ""
+                    "url": ""
                 }
             ]
         },
@@ -272,7 +272,7 @@
             "links": [
                 {
                     "title": "",
-                    "link": ""
+                    "url": ""
                 }
             ]
         }

@@ -30,7 +30,7 @@ a:hover, .a:hover {
   color: var(--bs-info); /* Inherits text color from parent element */
 }
 
-.carousel-inner, .card{
+.carousel-inner, .card, .embed-url{
   border-radius: 20px;
 }
 

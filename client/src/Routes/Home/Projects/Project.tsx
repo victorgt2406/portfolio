@@ -11,12 +11,21 @@ type MyProps = {
 };
 
 export default function Project({ id, title, description, links }: MyProps) {
+    const img = links[0].link
+    const alt = links[0].title
+    
+
     return (
         <div className="card">
             <img
-                src="https://i.pinimg.com/originals/8c/97/d2/8c97d27b9fff8d200a0cd11ebb21525f.jpg"
+                src={img}
                 className="card-img-top"
-                alt="..."
+                alt={alt}
+                style={{
+                    height: "400px",
+                    width: "auto",
+                    objectFit: "scale-down"
+                }}
             />
             <div className="card-body">
                 <p>{title}</p>

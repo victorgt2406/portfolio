@@ -20,16 +20,15 @@ export default function Experience({ image, company, start, end, positions:poss 
     const startDate = new Date(start);
     const endDate = new Date(end);
     return (
-        <div className="experience">
+        <div className="card my-1">
             <div className="d-flex w-100 align-items-center justify-content-between">
                 <div className="d-flex align-items-center p-2">
                     <img
                         style={{
-                            height: "80px",
-                            width: "80px"
+                            height: "80px"
                         }}
+                        className="rounded-4"
                         src={image}
-                        className="pe-2"
                     />
                     <div className="ps-2 fs-5 fw-bold">{company}</div>
                 </div>

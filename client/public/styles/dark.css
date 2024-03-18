@@ -3,7 +3,8 @@
     --text: #fff;
     --bs-body-color: #fff; /* Body color */
     --bs-body-bg: #1b1b1b; /* Body Background */
-    --bs-tertiary-bg: #000000;
+    --bs-tertiary-bg: #000000; /* Tertiary Background */
+    --bs-border-color-translucent: #000;
     --bs-primary: #0d6efd; /* Blue */
     --bs-secondary: #6c757d; /* Gray */
     --bs-info: #0dcaf0; /* Cyan */

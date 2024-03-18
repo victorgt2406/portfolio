@@ -43,12 +43,6 @@ a:hover, .a:hover {
   color: var(--bs-light);
 }
 
-.experience{
-  background-color: var(--bs-white);
-  border: 0.1px solid var(--bs-dark);
-  border-radius: 10px;
-}
-
 .navBar{
   background-color: var(--bs-white);
 }

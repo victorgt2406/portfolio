@@ -188,47 +188,45 @@
         {
             "company": "Cedar Fair | Valleyfair",
             "image": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/0c64b49580bcd35a0d795195d5ac7c36",
-            "positions": [
-                {
-                    "title": "Operador de máquinas",
-                    "description": [
-                        "Mejora en la expresión oral e interacción con el público, así como en el liderazgo en diferentes escenarios. Reconocimiento de iROC por una sobresaliente participación con el público y profesionalismo, galardonado con el premio “Golden Thumb”."
-                    ],
-                    "skills": [
-                        "Trabajo en equipo",
-                        "Liderazgo",
-                        "Interacción con el público"
-                    ]
-                }
-            ],
+            "positions": {
+                "title": "Operador de máquinas",
+                "description": [
+                    "Mejora en la expresión oral e interacción con el público, así como en el liderazgo en diferentes escenarios. Reconocimiento de iROC por una sobresaliente participación con el público y profesionalismo, galardonado con el premio “Golden Thumb”."
+                ],
+                "skills": [
+                    "Trabajo en equipo",
+                    "Liderazgo",
+                    "Interacción con el público"
+                ]
+            },
             "start": "2023-07-01",
-            "end": "2023-09-17"
+            "end": "2023-09-17",
+            "location": "Minnesota, EE.UU."
         },
         {
             "company": "Tabacalera",
             "image": "https://media.licdn.com/dms/image/C4D0BAQHGDmfvQgGqdQ/company-logo_200_200/0/1630579461247/tabacalera_logo?e=2147483647&v=beta&t=raoSEEia3kncJpXogLiBL_5ModjD1DyAs-JFXQnc3Yw",
-            "positions": [
-                {
-                    "title": "Prácticas | Data engineer",
-                    "description": [
-                        "Prácticas como Data engineer, donde estuve iniciando un proyecto con la herramienta MsGraph de microsoft para detectar anomalías o riesgos",
-                        "Aprendí mucho a recopilar datos con MsGraph donde obtuve datos principalmente de Intune y de Microsoft 365. Desarrolle un demonio para obtener estos datos y almacenarlos en el motor de búsqueda Elasticsearch y Opensearch.",
-                        "Por diferentes motivos, Elasticsearch se escogió como motor de búsqueda con el que continuar el proyecto. para ampliar mi conocimiento realizando visualizaciones de los datos de MsGraph con Kibana e implemente watchers para avisar de posibles riesgos basados en los datos."
-                    ],
-                    "skills": [
-                        "Elasticsearch",
-                        "Kibana",
-                        "OpenSearch",
-                        "OpenSearch Dashboard",
-                        "Microsoft Graph",
-                        "Python",
-                        "Microservices",
-                        "Hyper V | Windows Server"
-                    ]
-                }
-            ],
+            "positions": {
+                "title": "Prácticas | Data engineer",
+                "description": [
+                    "Prácticas como Data engineer, donde estuve iniciando un proyecto con la herramienta MsGraph de microsoft para detectar anomalías o riesgos",
+                    "Aprendí mucho a recopilar datos con MsGraph donde obtuve datos principalmente de Intune y de Microsoft 365. Desarrolle un demonio para obtener estos datos y almacenarlos en el motor de búsqueda Elasticsearch y Opensearch.",
+                    "Por diferentes motivos, Elasticsearch se escogió como motor de búsqueda con el que continuar el proyecto. para ampliar mi conocimiento realizando visualizaciones de los datos de MsGraph con Kibana e implemente watchers para avisar de posibles riesgos basados en los datos."
+                ],
+                "skills": [
+                    "Elasticsearch",
+                    "Kibana",
+                    "OpenSearch",
+                    "OpenSearch Dashboard",
+                    "Microsoft Graph",
+                    "Python",
+                    "Microservices",
+                    "Hyper V | Windows Server"
+                ]
+            },
             "start": "2024-02-01",
-            "end": "2023-03-15"
+            "end": "2023-03-15",
+            "location": "Madrid, España"
         }
     ],
     "projects": [

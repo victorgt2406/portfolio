@@ -159,7 +159,9 @@
                     "start": "2020-10-01",
                     "end": "2019-05-31",
                     "title": "Primero de Ingeniería del Software",
-                    "honors": ["Matrícula de honor en Introducción a la Programación II"]
+                    "honors": [
+                        "Matrícula de honor en Introducción a la Programación II"
+                    ]
                 },
                 {
                     "start": "2020-09-01",
@@ -189,7 +191,9 @@
             "positions": [
                 {
                     "title": "Operador de máquinas",
-                    "description": [""],
+                    "description": [
+                        "Mejora en la expresión oral e interacción con el público, así como en el liderazgo en diferentes escenarios. Reconocimiento de iROC por una sobresaliente participación con el público y profesionalismo, galardonado con el premio “Golden Thumb”."
+                    ],
                     "skills": [
                         "Trabajo en equipo",
                         "Liderazgo",
@@ -206,7 +210,11 @@
             "positions": [
                 {
                     "title": "Prácticas | Data engineer",
-                    "description": [""],
+                    "description": [
+                        "Prácticas como Data engineer, donde estuve iniciando un proyecto con la herramienta MsGraph de microsoft para detectar anomalías o riesgos",
+                        "Aprendí mucho a recopilar datos con MsGraph donde obtuve datos principalmente de Intune y de Microsoft 365. Desarrolle un demonio para obtener estos datos y almacenarlos en el motor de búsqueda Elasticsearch y Opensearch.",
+                        "Por diferentes motivos, Elasticsearch se escogió como motor de búsqueda con el que continuar el proyecto. para ampliar mi conocimiento realizando visualizaciones de los datos de MsGraph con Kibana e implemente watchers para avisar de posibles riesgos basados en los datos."
+                    ],
                     "skills": [
                         "Elasticsearch",
                         "Kibana",
@@ -215,7 +223,7 @@
                         "Microsoft Graph",
                         "Python",
                         "Microservices",
-                        "Hyper V & Microsoft Windows Servers"
+                        "Hyper V | Windows Server"
                     ]
                 }
             ],

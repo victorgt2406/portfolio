@@ -1,6 +1,9 @@
 :root {
     --background: #000;
     --text: #fff;
+    --bs-body-color: #fff; /* Body color */
+    --bs-body-bg: #1b1b1b; /* Body Background */
+    --bs-tertiary-bg: #000000;
     --bs-primary: #0d6efd; /* Blue */
     --bs-secondary: #6c757d; /* Gray */
     --bs-info: #0dcaf0; /* Cyan */
@@ -11,5 +14,10 @@
     --bs-dark: #f8f9fa; /* Dark */
     --bs-white: #000; /* White */
     --bs-black: #fff; /* Black */
+    --microlink-color: #fff; /* Embed url color */
+    --microlink-background-color: hsla(0, 0%, 0%, 0.3); /* Embed url color */
+    --microlink-hover-background-color: #090909; /* Embed url color */
+    --microlink-border-color: hsla(0, 0%, 0%, 0.3); /* Embed url color */
+    --microlink-hover-border-color: #000; /* Embed url color */
 }
 

@@ -37,9 +37,10 @@ type CV = {
         id: string;
         title: string;
         description: string;
+        img: string;
         links: Array<{
             title: string;
-            link: string;
+            url: string;
         }>;
     }>;
 };

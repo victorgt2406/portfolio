@@ -25,7 +25,7 @@ type CV = {
     experience: Array<{
         company: string;
         image: string;
-        positions: {
+        position: {
             title: string;
             description: string[];
             skills: string[];

@@ -1,15 +1,11 @@
 type MyProps = {
-    company: string;
-    title: string;
     description: string[];
     skills: string[];
 };
 
-export default function Position({
-    title,
+export default function Description({
     description,
     skills,
-    company,
 }: MyProps) {
     const descriptionElements = description.map((desc, index) => (
         <li key={index} className="my-1 fw-light">
@@ -19,8 +15,7 @@ export default function Position({
 
     return (
         <div className="d-flex flex-column">
-            <div className="fs-4 fw-bold">{title}</div>
-            <div className="fs-5 text-secondary">{company}</div>
+
             <div className="ps-1">
                 <ul>{...descriptionElements}</ul>
             </div>

@@ -188,7 +188,7 @@
         {
             "company": "Cedar Fair | Valleyfair",
             "image": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/0c64b49580bcd35a0d795195d5ac7c36",
-            "positions": {
+            "position": {
                 "title": "Operador de máquinas",
                 "description": [
                     "Mejora en la expresión oral e interacción con el público, así como en el liderazgo en diferentes escenarios. Reconocimiento de iROC por una sobresaliente participación con el público y profesionalismo, galardonado con el premio “Golden Thumb”."
@@ -206,7 +206,7 @@
         {
             "company": "Tabacalera",
             "image": "https://media.licdn.com/dms/image/C4D0BAQHGDmfvQgGqdQ/company-logo_200_200/0/1630579461247/tabacalera_logo?e=2147483647&v=beta&t=raoSEEia3kncJpXogLiBL_5ModjD1DyAs-JFXQnc3Yw",
-            "positions": {
+            "position": {
                 "title": "Prácticas | Data engineer",
                 "description": [
                     "Prácticas como Data engineer, donde estuve iniciando un proyecto con la herramienta MsGraph de microsoft para detectar anomalías o riesgos",

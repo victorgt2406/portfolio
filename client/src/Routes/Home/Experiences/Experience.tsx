@@ -1,9 +1,9 @@
-import Position from "./Position";
+import Description from "./Description";
 
 type MyProps = {
     company: string;
     image: string;
-    positions: {
+    position: {
         title: string;
         description: string[];
         skills: string[];
@@ -18,7 +18,7 @@ export default function Experience({
     company,
     start,
     end,
-    positions,
+    position,
     location
 }: MyProps) {
     const startDate = new Date(start);
@@ -36,12 +36,13 @@ export default function Experience({
                         src={image}
                     />
                     <div className="ms-2">
-                        <Position {...{ company, ...positions }} />
+                        <div className="fs-4 fw-bold">{position.title}</div>
+                        <div className="fs-5 text-secondary">{company}</div>
                     </div>
                 </div>
                 <div className="d-flex flex-column align-items-end">
-                    <div className="">{location}</div>
-                    <div className="d-flex justify-content-end p-2 fst-italic fw-lighter">
+                    <div className="fst-italic fw-bold">{location}</div>
+                    <div className="d-flex justify-content-end fst-italic fw-lighter">
                         <div className="pe-2">
                             {(startDate.getMonth() + 1)
                                 .toString()
@@ -58,6 +59,7 @@ export default function Experience({
                     </div>
                 </div>
             </div>
+            <Description {...position } />
         </div>
     );
 }

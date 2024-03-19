@@ -257,30 +257,6 @@
                     "url": "https://github.com/victorgt2406/la_escoba"
                 }
             ]
-        },
-        {
-            "id": "digitalClock",
-            "title": "Digital Clock",
-            "description": "",
-            "img": "/projects/u-tad_sports/news_web.png",
-            "links": [
-                {
-                    "title": "",
-                    "url": ""
-                }
-            ]
-        },
-        {
-            "id": "knowMyGrade",
-            "title": "Know My Grade",
-            "description": "",
-            "img": "/projects/u-tad_sports/news_web.png",
-            "links": [
-                {
-                    "title": "",
-                    "url": ""
-                }
-            ]
         }
     ]
 }

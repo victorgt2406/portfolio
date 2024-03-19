@@ -13,7 +13,7 @@ function Skill({ icon, title }: Omit<SkillType, "labels">) {
     );
 }
 
-export default function Skills() {
+export default function SkillsDeprecated() {
     const skills: SkillType[] = [
         {
             title: "Team work",
@@ -21,7 +21,7 @@ export default function Skills() {
             labels: ["soft skills"],
         },
         {
-            title: "Engament",
+            title: "Engagement",
             icon: <i className="bi bi-people-fill"></i>,
             labels: ["soft skills"],
         },

@@ -3,7 +3,7 @@ import Carousel from "./Carousel";
 import Experiences from "./Experiences";
 import Presentation from "./Presentation";
 import Projects from "./Projects";
-import Skills from "./Skills";
+import Skills from "./SkillsDeprecated";
 
 export default function Home() {
     return (

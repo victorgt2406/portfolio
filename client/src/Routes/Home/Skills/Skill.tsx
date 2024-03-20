@@ -2,19 +2,23 @@ import { motion } from "framer-motion";
 
 type MyProps = {
     title: string;
+    index: number;
 };
 
-export default function Skill({ title }: MyProps) {
+export default function Skill({ title, index }: MyProps) {
+    const duration = 0.1;
+    const delay = index * duration;
     return (
         <motion.div
-            className="me-2"
-            initial={{ opacity: 0, scale: 0.2 }}
-            animate={{ opacity: 1, scale: 1 }}
-            exit={{ opacity: 0, scale: 0 }}
+            layout // This will handle the size adjustments smoothly
+            initial={{ opacity: 0, scaleY: 0 }}
+            animate={{ opacity: 1, scaleY: 1 }}
+            exit={{ opacity: 0, scaleY: 0, transition: { duration:duration/2 } }}
             transition={{
-                duration: 0.2,
-                ease: "easeInOut",
+                opacity: { duration, delay },
+                scaleY: { duration, delay }, // Keep animations synchronized with a delay
             }}
+            className="me-2"
         >
             {title}
         </motion.div>

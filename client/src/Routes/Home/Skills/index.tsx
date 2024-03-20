@@ -34,21 +34,6 @@ export default function Skills() {
         );
     }
     skills.sort();
-
-    // const listVariants = {
-    //     visible: {
-    //         transition: {
-    //             staggerChildren: 0.1, // This delays the animation of each child by 0.1 seconds relative to the last one
-    //         },
-    //     },
-    //     hidden: {
-    //         transition: {
-    //             staggerChildren: 0.05, // Adjust as needed
-    //             staggerDirection: -1, // This makes the stagger effect go in reverse for exit animations
-    //         },
-    //     },
-    // };
-
     return (
         <div>
             <h2>Compentencias</h2>
@@ -66,20 +51,13 @@ export default function Skills() {
                 ))}
             </div>
             {/* skills */}
-            <AnimatePresence>
-                <motion.div
-                    layout
-                    className="d-flex flex-wrap"
-                    // variants={listVariants}
-                    initial="none"
-                    animate="visible"
-                    exit="none"
-                >
-                    {skills.map((skill, index) => (
-                        <Skill key={skill+index} title={skill} index={index}/>
-                    ))}
-                </motion.div>
-            </AnimatePresence>
+            <motion.div layout className="d-flex flex-wrap" initial={false}>
+                {skills.map((skill, index) => (
+                    <AnimatePresence key={skill}>
+                    <Skill key={skill + index} title={skill} index={index} />
+                    </AnimatePresence>
+                ))}
+            </motion.div>
         </div>
     );
 }

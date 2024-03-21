@@ -21,7 +21,17 @@
             "labels": ["competencias interpersonales"]
         },
         {
-            "title": "AWS (Amazon Web Service)",
+            "title": "AWS",
+            "icon": "/imgs/aws.svg",
+            "labels": ["software", "backend", "cloud"]
+        },
+        {
+            "title": "Azure",
+            "icon": "/imgs/aws.svg",
+            "labels": ["software", "backend", "cloud"]
+        },
+        {
+            "title": "Linode",
             "icon": "/imgs/aws.svg",
             "labels": ["software", "backend", "cloud"]
         },
@@ -38,26 +48,36 @@
         {
             "title": "Python",
             "icon": "/imgs/mongoDB.svg",
-            "labels": ["software", "big data", "lenguajes de programación"]
+            "labels": ["software", "data engineer", "computer science", "lenguajes de programación"]
+        },
+        {
+            "title": "Keras",
+            "icon": "/imgs/keras.svg",
+            "labels": ["software", "computer science"]
+        },
+        {
+            "title": "R",
+            "icon": "/imgs/mongoDB.svg",
+            "labels": ["software", "data engineer", "lenguajes de programación"]
         },
         {
             "title": "Java",
-            "icon": "/imgs/mongoDB.svg",
+            "icon": "/imgs/java.svg",
             "labels": ["software", "lenguajes de programación"]
         },
         {
             "title": "C",
-            "icon": "/imgs/mongoDB.svg",
+            "icon": "/imgs/c.svg",
             "labels": ["software", "lenguajes de programación"]
         },
         {
             "title": "C++",
-            "icon": "/imgs/mongoDB.svg",
+            "icon": "/imgs/cpp.svg",
             "labels": ["software", "lenguajes de programación"]
         },
         {
             "title": "JavaScript",
-            "icon": "/imgs/mongoDB.svg",
+            "icon": "/imgs/javaScript.svg",
             "labels": [
                 "software",
                 "frontend",
@@ -82,13 +102,24 @@
             ]
         },
         {
+            "title": "Dart",
+            "icon": "/imgs/dart.svg",
+            "labels": [
+                "software",
+                "frontend",
+                "backend",
+                "web",
+                "lenguajes de programación"
+            ]
+        },
+        {
             "title": "MongoDB",
             "icon": "/imgs/mongoDB.svg",
             "labels": ["software", "bases de datos"]
         },
         {
             "title": "Neo4j",
-            "icon": "/imgs/mongoDB.svg",
+            "icon": "/imgs/neo4j.svg",
             "labels": ["software", "bases de datos"]
         },
         {
@@ -103,7 +134,7 @@
         },
         {
             "title": "MariaDB",
-            "icon": "/imgs/mongoDB.svg",
+            "icon": "/imgs/mariaDB.svg",
             "labels": ["software", "bases de datos"]
         },
         {

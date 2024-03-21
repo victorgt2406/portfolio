@@ -8,7 +8,7 @@ type MyProps = {
 };
 
 export default function Skill({ title, index, icon }: MyProps) {
-    const duration = 0.1;
+    const duration = 0.035;
     const delay = index * duration;
     return (
         <motion.div

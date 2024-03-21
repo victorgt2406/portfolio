@@ -12,12 +12,12 @@
         },
         {
             "title": "Comunicación",
-            "icon": "/imgs/mongoDB.svg",
+            "icon": "/imgs/comunication.svg",
             "labels": ["competencias interpersonales"]
         },
         {
             "title": "Servicio al cliente",
-            "icon": "/imgs/mongoDB.svg",
+            "icon": "/imgs/clientService.svg",
             "labels": ["competencias interpersonales"]
         },
         {
@@ -47,7 +47,7 @@
         },
         {
             "title": "Python",
-            "icon": "/imgs/mongoDB.svg",
+            "icon": "/imgs/python.svg",
             "labels": ["software", "data engineer", "computer science", "lenguajes de programación"]
         },
         {
@@ -57,7 +57,7 @@
         },
         {
             "title": "R",
-            "icon": "/imgs/mongoDB.svg",
+            "icon": "/imgs/r.svg",
             "labels": ["software", "data engineer", "lenguajes de programación"]
         },
         {
@@ -87,12 +87,12 @@
         },
         {
             "title": "NodeJS",
-            "icon": "/imgs/mongoDB.svg",
+            "icon": "/imgs/nodeJS.svg",
             "labels": ["software", "backend", "web"]
         },
         {
             "title": "TypeScript",
-            "icon": "/imgs/mongoDB.svg",
+            "icon": "/imgs/typeScript.svg",
             "labels": [
                 "software",
                 "frontend",
@@ -124,12 +124,12 @@
         },
         {
             "title": "Redis",
-            "icon": "/imgs/mongoDB.svg",
+            "icon": "/imgs/redis.svg",
             "labels": ["software", "bases de datos"]
         },
         {
             "title": "MySql",
-            "icon": "/imgs/mongoDB.svg",
+            "icon": "/imgs/mysql.svg",
             "labels": ["software", "bases de datos"]
         },
         {
@@ -139,12 +139,12 @@
         },
         {
             "title": "Español (nativo)",
-            "icon": "/imgs/mongoDB.svg",
+            "icon": "/imgs/spanish.svg",
             "labels": ["idioma"]
         },
         {
             "title": "Inglés (C1)",
-            "icon": "/imgs/mongoDB.svg",
+            "icon": "/imgs/english.svg",
             "labels": ["idioma"]
         }
     ],

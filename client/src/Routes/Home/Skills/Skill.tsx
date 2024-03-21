@@ -24,7 +24,7 @@ export default function Skill({ title, index, icon }: MyProps) {
                 opacity: { duration, delay },
                 scaleY: { duration, delay },
             }}
-            className="px-2 me-2 d-flex align-items-center"
+            className="px-2 me-2 mt-2 d-flex align-items-center"
         >
             <Tooltip content={title}>
                 <img

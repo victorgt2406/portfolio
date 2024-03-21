@@ -1,9 +1,10 @@
 import { motion } from "framer-motion";
+import Tooltip from "../../../Components/Tooltip";
 
 type MyProps = {
     title: string;
     index: number;
-    icon: string
+    icon: string;
 };
 
 export default function Skill({ title, index, icon }: MyProps) {
@@ -25,10 +26,14 @@ export default function Skill({ title, index, icon }: MyProps) {
             }}
             className="px-2 me-2 d-flex align-items-center"
         >
-            <span className="pe-1">{title}</span>
-            <img src={icon} style={{
-                height: "30px"
-            }}/>
+            <Tooltip content={title}>
+                <img
+                    src={icon}
+                    style={{
+                        height: "30px",
+                    }}
+                />
+            </Tooltip>
         </motion.div>
     );
 }

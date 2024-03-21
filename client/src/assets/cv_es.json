@@ -7,57 +7,77 @@
     "skills": [
         {
             "title": "Trabajo en equipo",
-            "icon": "",
+            "icon": "/imgs/mongoDB.svg",
             "labels": ["competencias interpersonales"]
         },
         {
             "title": "Comunicación",
-            "icon": "",
+            "icon": "/imgs/comunication.svg",
             "labels": ["competencias interpersonales"]
         },
         {
             "title": "Servicio al cliente",
-            "icon": "",
+            "icon": "/imgs/clientService.svg",
             "labels": ["competencias interpersonales"]
         },
         {
-            "title": "AWS (Amazon Web Service)",
-            "icon": "",
+            "title": "AWS",
+            "icon": "/imgs/aws.svg",
+            "labels": ["software", "backend", "cloud"]
+        },
+        {
+            "title": "Azure",
+            "icon": "/imgs/aws.svg",
+            "labels": ["software", "backend", "cloud"]
+        },
+        {
+            "title": "Linode",
+            "icon": "/imgs/aws.svg",
             "labels": ["software", "backend", "cloud"]
         },
         {
             "title": "Docker",
-            "icon": "",
+            "icon": "/imgs/docker.svg",
             "labels": ["software", "backend", "cloud"]
         },
         {
             "title": "Kubernetes",
-            "icon": "",
+            "icon": "/imgs/kubernetes.svg",
             "labels": ["software", "backend", "cloud"]
         },
         {
             "title": "Python",
-            "icon": "",
-            "labels": ["software", "big data", "lenguajes de programación"]
+            "icon": "/imgs/python.svg",
+            "labels": ["software", "data engineer", "computer science", "lenguajes de programación"]
+        },
+        {
+            "title": "Keras",
+            "icon": "/imgs/keras.svg",
+            "labels": ["software", "computer science"]
+        },
+        {
+            "title": "R",
+            "icon": "/imgs/r.svg",
+            "labels": ["software", "data engineer", "lenguajes de programación"]
         },
         {
             "title": "Java",
-            "icon": "",
+            "icon": "/imgs/java.svg",
             "labels": ["software", "lenguajes de programación"]
         },
         {
             "title": "C",
-            "icon": "",
+            "icon": "/imgs/c.svg",
             "labels": ["software", "lenguajes de programación"]
         },
         {
             "title": "C++",
-            "icon": "",
+            "icon": "/imgs/cpp.svg",
             "labels": ["software", "lenguajes de programación"]
         },
         {
             "title": "JavaScript",
-            "icon": "",
+            "icon": "/imgs/javaScript.svg",
             "labels": [
                 "software",
                 "frontend",
@@ -67,12 +87,23 @@
         },
         {
             "title": "NodeJS",
-            "icon": "",
+            "icon": "/imgs/nodeJS.svg",
             "labels": ["software", "backend", "web"]
         },
         {
             "title": "TypeScript",
-            "icon": "",
+            "icon": "/imgs/typeScript.svg",
+            "labels": [
+                "software",
+                "frontend",
+                "backend",
+                "web",
+                "lenguajes de programación"
+            ]
+        },
+        {
+            "title": "Dart",
+            "icon": "/imgs/dart.svg",
             "labels": [
                 "software",
                 "frontend",
@@ -83,44 +114,44 @@
         },
         {
             "title": "MongoDB",
-            "icon": "",
+            "icon": "/imgs/mongoDB.svg",
             "labels": ["software", "bases de datos"]
         },
         {
             "title": "Neo4j",
-            "icon": "",
+            "icon": "/imgs/neo4j.svg",
             "labels": ["software", "bases de datos"]
         },
         {
             "title": "Redis",
-            "icon": "",
+            "icon": "/imgs/redis.svg",
             "labels": ["software", "bases de datos"]
         },
         {
             "title": "MySql",
-            "icon": "",
+            "icon": "/imgs/mysql.svg",
             "labels": ["software", "bases de datos"]
         },
         {
             "title": "MariaDB",
-            "icon": "",
+            "icon": "/imgs/mariaDB.svg",
             "labels": ["software", "bases de datos"]
         },
         {
             "title": "Español (nativo)",
-            "icon": "",
+            "icon": "/imgs/spanish.svg",
             "labels": ["idioma"]
         },
         {
             "title": "Inglés (C1)",
-            "icon": "",
+            "icon": "/imgs/english.svg",
             "labels": ["idioma"]
         }
     ],
     "education": [
         {
             "company": "Idaho Falls High School",
-            "icon": "",
+            "icon": "/imgs/mongoDB.svg",
             "location": "Idaho, Estados Unidos",
             "start": "2018-08-01",
             "end": "2019-05-31",
@@ -135,7 +166,7 @@
         },
         {
             "company": "Colegio San Gabriel Madrid",
-            "icon": "",
+            "icon": "/imgs/mongoDB.svg",
             "location": "Madrid, España",
             "start": "2019-09-01",
             "end": "2020-06-30",
@@ -150,7 +181,7 @@
         },
         {
             "company": "U-tad",
-            "icon": "",
+            "icon": "/imgs/mongoDB.svg",
             "location": "Madrid, España",
             "start": "2020-10-01",
             "end": "2024-06-01",

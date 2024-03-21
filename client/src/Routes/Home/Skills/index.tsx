@@ -4,6 +4,12 @@ import Label from "./Label";
 import Skill from "./Skill";
 import { AnimatePresence, motion } from "framer-motion";
 
+type SkillType = {
+    title: string;
+    icon: string;
+    labels: string[];
+};
+
 export default function Skills() {
     const context = useContext(Context);
     const skillsObj = context.cv.skills;
@@ -19,21 +25,19 @@ export default function Skills() {
                 ...filterLabels.filter((filterLabel) => filterLabel != label),
             ]);
     };
-    let skills: string[] = skillsObj.map((skill) => skill.title);
+    let skills: SkillType[] = skillsObj;
     if (filterLabels.length >= 1) {
         skills = Array.from(
             new Set(
-                filterLabels
-                    .flatMap((filterlabel) =>
-                        skillsObj.filter((skill) =>
-                            skill.labels.includes(filterlabel)
-                        )
+                filterLabels.flatMap((filterlabel) =>
+                    skillsObj.filter((skill) =>
+                        skill.labels.includes(filterlabel)
                     )
-                    .map((skill) => skill.title)
+                )
             )
         );
     }
-    skills.sort();
+    skills.sort((a, b) => a.title.localeCompare(b.title));
     return (
         <div>
             <h2>Compentencias</h2>
@@ -53,8 +57,14 @@ export default function Skills() {
             {/* skills */}
             <motion.div layout className="d-flex flex-wrap" initial={false}>
                 {skills.map((skill, index) => (
-                    <AnimatePresence key={skill}>
-                    <Skill key={skill + index} title={skill} index={index} />
+                    <AnimatePresence key={skill.title}>
+                        <Skill
+                            key={skill.title + index}
+                            title={skill.title}
+                            index={index}
+                            icon={skill.icon}
+                        />
+                        
                     </AnimatePresence>
                 ))}
             </motion.div>

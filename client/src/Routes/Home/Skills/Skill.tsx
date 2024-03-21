@@ -3,9 +3,10 @@ import { motion } from "framer-motion";
 type MyProps = {
     title: string;
     index: number;
+    icon: string
 };
 
-export default function Skill({ title, index }: MyProps) {
+export default function Skill({ title, index, icon }: MyProps) {
     const duration = 0.1;
     const delay = index * duration;
     return (
@@ -22,9 +23,12 @@ export default function Skill({ title, index }: MyProps) {
                 opacity: { duration, delay },
                 scaleY: { duration, delay },
             }}
-            className="me-2"
+            className="px-2 me-2 d-flex align-items-center"
         >
-            {title}
+            <span className="pe-1">{title}</span>
+            <img src={icon} style={{
+                height: "30px"
+            }}/>
         </motion.div>
     );
 }

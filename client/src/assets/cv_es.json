@@ -7,57 +7,57 @@
     "skills": [
         {
             "title": "Trabajo en equipo",
-            "icon": "",
+            "icon": "/imgs/mongoDB.svg",
             "labels": ["competencias interpersonales"]
         },
         {
             "title": "Comunicación",
-            "icon": "",
+            "icon": "/imgs/mongoDB.svg",
             "labels": ["competencias interpersonales"]
         },
         {
             "title": "Servicio al cliente",
-            "icon": "",
+            "icon": "/imgs/mongoDB.svg",
             "labels": ["competencias interpersonales"]
         },
         {
             "title": "AWS (Amazon Web Service)",
-            "icon": "",
+            "icon": "/imgs/aws.svg",
             "labels": ["software", "backend", "cloud"]
         },
         {
             "title": "Docker",
-            "icon": "",
+            "icon": "/imgs/docker.svg",
             "labels": ["software", "backend", "cloud"]
         },
         {
             "title": "Kubernetes",
-            "icon": "",
+            "icon": "/imgs/kubernetes.svg",
             "labels": ["software", "backend", "cloud"]
         },
         {
             "title": "Python",
-            "icon": "",
+            "icon": "/imgs/mongoDB.svg",
             "labels": ["software", "big data", "lenguajes de programación"]
         },
         {
             "title": "Java",
-            "icon": "",
+            "icon": "/imgs/mongoDB.svg",
             "labels": ["software", "lenguajes de programación"]
         },
         {
             "title": "C",
-            "icon": "",
+            "icon": "/imgs/mongoDB.svg",
             "labels": ["software", "lenguajes de programación"]
         },
         {
             "title": "C++",
-            "icon": "",
+            "icon": "/imgs/mongoDB.svg",
             "labels": ["software", "lenguajes de programación"]
         },
         {
             "title": "JavaScript",
-            "icon": "",
+            "icon": "/imgs/mongoDB.svg",
             "labels": [
                 "software",
                 "frontend",
@@ -67,12 +67,12 @@
         },
         {
             "title": "NodeJS",
-            "icon": "",
+            "icon": "/imgs/mongoDB.svg",
             "labels": ["software", "backend", "web"]
         },
         {
             "title": "TypeScript",
-            "icon": "",
+            "icon": "/imgs/mongoDB.svg",
             "labels": [
                 "software",
                 "frontend",
@@ -83,44 +83,44 @@
         },
         {
             "title": "MongoDB",
-            "icon": "",
+            "icon": "/imgs/mongoDB.svg",
             "labels": ["software", "bases de datos"]
         },
         {
             "title": "Neo4j",
-            "icon": "",
+            "icon": "/imgs/mongoDB.svg",
             "labels": ["software", "bases de datos"]
         },
         {
             "title": "Redis",
-            "icon": "",
+            "icon": "/imgs/mongoDB.svg",
             "labels": ["software", "bases de datos"]
         },
         {
             "title": "MySql",
-            "icon": "",
+            "icon": "/imgs/mongoDB.svg",
             "labels": ["software", "bases de datos"]
         },
         {
             "title": "MariaDB",
-            "icon": "",
+            "icon": "/imgs/mongoDB.svg",
             "labels": ["software", "bases de datos"]
         },
         {
             "title": "Español (nativo)",
-            "icon": "",
+            "icon": "/imgs/mongoDB.svg",
             "labels": ["idioma"]
         },
         {
             "title": "Inglés (C1)",
-            "icon": "",
+            "icon": "/imgs/mongoDB.svg",
             "labels": ["idioma"]
         }
     ],
     "education": [
         {
             "company": "Idaho Falls High School",
-            "icon": "",
+            "icon": "/imgs/mongoDB.svg",
             "location": "Idaho, Estados Unidos",
             "start": "2018-08-01",
             "end": "2019-05-31",
@@ -135,7 +135,7 @@
         },
         {
             "company": "Colegio San Gabriel Madrid",
-            "icon": "",
+            "icon": "/imgs/mongoDB.svg",
             "location": "Madrid, España",
             "start": "2019-09-01",
             "end": "2020-06-30",
@@ -150,7 +150,7 @@
         },
         {
             "company": "U-tad",
-            "icon": "",
+            "icon": "/imgs/mongoDB.svg",
             "location": "Madrid, España",
             "start": "2020-10-01",
             "end": "2024-06-01",

@@ -21,7 +21,7 @@ export default function Label({
         <motion.div
             whileHover={{ scale }}
             transition={{ duration: 0.075 }}
-            className={`m-2 btn badge rounded-pill ${isSelected?"text-bg-primary":"text-bg-dark"} fs-5`}
+            className={`m-2 btn badge rounded-pill ${isSelected?"text-bg-primary":"text-bg-light"} fs-5`}
             onClick={() => setLabel(title)}
         >
             {children}

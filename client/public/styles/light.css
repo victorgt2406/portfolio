@@ -5,12 +5,19 @@
     --bs-body-bg: #f5f5f5; /* Body Background */
     --bs-tertiary-bg: #fff; /* Tertiary Background */
     --bs-border-color-translucent: #fff;
-    --bs-primary: #0d6efd; /* Blue */
-    --bs-secondary: #6c757d; /* Gray */
-    --bs-info: #0dcaf0; /* Cyan */
+    /* primary */
+    --bs-primary: #E10701; 
+    --bs-primary-rgb: 225, 7, 1;
+    --bs-primary-opacity: 1;
+    /* secondary */
+    --bs-secondary: #E0504B; /* Gray */
+    /* info */
+    --bs-info: #E0504B; /* Cyan */
     --bs-success: #198754; /* Green */
     --bs-warning: #ffc107; /* Yellow */
     --bs-danger: #dc3545; /* Red */
-    --bs-light: #f8f9fa; /* Light */
+    --bs-light: #f5f5f5; /* Light */
     --bs-dark: #212529; /* Dark */
+    --bs-light-rgb: 235, 235, 235; /* Light blue background */
+    --bs-bg-opacity: 1; /* 50% opacity */
 }

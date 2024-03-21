@@ -5,9 +5,14 @@
     --bs-body-bg: #1b1b1b; /* Body Background */
     --bs-tertiary-bg: #000000; /* Tertiary Background */
     --bs-border-color-translucent: #000;
-    --bs-primary: #0d6efd; /* Blue */
-    --bs-secondary: #6c757d; /* Gray */
-    --bs-info: #0dcaf0; /* Cyan */
+    /* primary */
+    --bs-primary: #e10701;
+    --bs-primary-rgb: 225, 7, 1;
+    --bs-primary-opacity: 1;
+    /* secondary */
+    --bs-secondary: #e0504b; /* Gray */
+    /* info */
+    --bs-info: #e0504b; /* Cyan */
     --bs-success: #198754; /* Green */
     --bs-warning: #ffc107; /* Yellow */
     --bs-danger: #dc3545; /* Red */
@@ -21,5 +26,10 @@
     --microlink-border-color: hsla(0, 0%, 0%, 0.3); /* Embed url color */
     --microlink-hover-border-color: #000; /* Embed url color */
     --bs-tooltip-color: #fff;
+    --bs-light-rgb: 20, 20, 20; /* Dark gray (almost black) */
+    --bs-bg-opacity: 2;
 }
 
+.text-bg-light {
+    color: var(--bs-black) !important;
+}

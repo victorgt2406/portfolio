@@ -2,7 +2,10 @@ import { Lang } from "../types/LangType";
 
 const langEn: Lang = {
     home: "home",
-    contact: "contact"
+    contact: "contact",
+    skills: "skills",
+    experiences: "experiences",
+    projects: "projects"
 }
 
 export default langEn;

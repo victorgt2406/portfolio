@@ -2,6 +2,7 @@ type Presentation = {
     fullname: string;
     name: string;
     surnames: string;
+    brief: string;
 };
 
 type Skills = {

@@ -34,6 +34,7 @@ const defaultValues: ContextProps = {
             fullname: "",
             name: "",
             surnames: "",
+            brief: ""
         },
         skills: [],
         education: [],

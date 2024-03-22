@@ -7,18 +7,13 @@
     },
     "skills": [
         {
-            "title": "Teamwork",
-            "icon": "/imgs/mongoDB.svg",
+            "title": "Team Work",
+            "icon": "/imgs/team.svg",
             "labels": ["interpersonal skills"]
         },
         {
             "title": "Communication",
             "icon": "/imgs/comunication.svg",
-            "labels": ["interpersonal skills"]
-        },
-        {
-            "title": "Customer Service",
-            "icon": "/imgs/clientService.svg",
             "labels": ["interpersonal skills"]
         },
         {
@@ -28,12 +23,12 @@
         },
         {
             "title": "Azure",
-            "icon": "/imgs/aws.svg",
+            "icon": "/imgs/azure.svg",
             "labels": ["software", "backend", "cloud"]
         },
         {
             "title": "Linode",
-            "icon": "/imgs/aws.svg",
+            "icon": "/imgs/linode.svg",
             "labels": ["software", "backend", "cloud"]
         },
         {

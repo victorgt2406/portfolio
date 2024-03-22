@@ -8,17 +8,12 @@
     "skills": [
         {
             "title": "Trabajo en equipo",
-            "icon": "/imgs/mongoDB.svg",
+            "icon": "/imgs/team.svg",
             "labels": ["competencias interpersonales"]
         },
         {
             "title": "Comunicación",
             "icon": "/imgs/comunication.svg",
-            "labels": ["competencias interpersonales"]
-        },
-        {
-            "title": "Servicio al cliente",
-            "icon": "/imgs/clientService.svg",
             "labels": ["competencias interpersonales"]
         },
         {
@@ -28,12 +23,12 @@
         },
         {
             "title": "Azure",
-            "icon": "/imgs/aws.svg",
+            "icon": "/imgs/azure.svg",
             "labels": ["software", "backend", "cloud"]
         },
         {
             "title": "Linode",
-            "icon": "/imgs/aws.svg",
+            "icon": "/imgs/linode.svg",
             "labels": ["software", "backend", "cloud"]
         },
         {

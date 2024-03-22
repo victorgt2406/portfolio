@@ -9,7 +9,7 @@ export default function Experiences() {
     const Exps = context.cv.experience.sort((a, b) => (new Date(b.start)).getTime() - (new Date(a.start)).getTime()).map((exp, index) => <Experience key={index} {...exp} />)
 
     return (
-        <div className="d-flex flex-column w-100">
+        <div className="d-flex flex-column w-100 mt-3">
             <h2>{capitalizeFirstLetter(context.lang.experiences)}</h2>
             {...Exps}
         </div>

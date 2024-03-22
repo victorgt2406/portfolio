@@ -9,6 +9,7 @@
     --bs-primary: #e10701;
     --bs-primary-rgb: 225, 7, 1;
     --bs-primary-opacity: 1;
+    --bs-primary-hover: #8B322E;
     /* secondary */
     --bs-secondary: #e0504b; /* Gray */
     /* info */
@@ -26,6 +27,7 @@
     --microlink-border-color: hsla(0, 0%, 0%, 0.3); /* Embed url color */
     --microlink-hover-border-color: #000; /* Embed url color */
     --bs-tooltip-color: #fff;
+    --bs-tooltip-bg: #000;
     --bs-light-rgb: 20, 20, 20; /* Dark gray (almost black) */
     --bs-bg-opacity: 2;
 }

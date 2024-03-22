@@ -44,7 +44,7 @@ export default function NavBar() {
     ];
     return (
         <div
-            className="d-flex justify-content-end p-2 navBar flex-wrap"
+            className="w-100 d-flex justify-content-end p-2 navBar flex-wrap"
             style={{
                 position: "sticky",
                 top: 0,

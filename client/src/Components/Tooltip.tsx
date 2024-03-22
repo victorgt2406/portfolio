@@ -40,7 +40,7 @@ export default function Tooltip({
                     role="tooltip"
                     style={{ position: "absolute", zIndex: 1080, opacity: 0.8 }} // Adjust positioning as needed
                 >
-                    <div className="tooltip-inner">{content}</div>
+                    <div className="tooltip-inner text-white">{content}</div>
                 </motion.div>
             )}
         </span>

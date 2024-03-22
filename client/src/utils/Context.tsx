@@ -7,7 +7,7 @@ import getSystemLangOption from "./getSystemLangOption";
 import { Darkmode, LangOption, LANGS } from "../types/OptionsTypes";
 import { Lang } from "../types/LangType";
 
-const CV = {
+const CV : Record<LangOption, CVtype>= {
     en: cv_en,
     es: cv_es,
 };

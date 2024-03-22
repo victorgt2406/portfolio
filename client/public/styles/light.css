@@ -6,9 +6,10 @@
     --bs-tertiary-bg: #fff; /* Tertiary Background */
     --bs-border-color-translucent: #fff;
     /* primary */
-    --bs-primary: #E10701; 
+    --bs-primary: #E10701;
     --bs-primary-rgb: 225, 7, 1;
     --bs-primary-opacity: 1;
+    --bs-primary-hover: #8B322E;
     /* secondary */
     --bs-secondary: #E0504B; /* Gray */
     /* info */

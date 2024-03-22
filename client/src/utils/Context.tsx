@@ -1,13 +1,14 @@
 import React, { createContext, useEffect, useState } from "react";
 import { CV as CVtype } from "../types/CVtypes";
 import cv_es from "../assets/cv_es.json";
+import cv_en from "../assets/cv_en.json";
 import Cookies from "js-cookie";
 import getSystemLangOption from "./getSystemLangOption";
 import { Darkmode, LangOption, LANGS } from "../types/OptionsTypes";
 import { Lang } from "../types/LangType";
 
 const CV = {
-    en: cv_es,
+    en: cv_en,
     es: cv_es,
 };
 
@@ -43,7 +44,10 @@ const defaultValues: ContextProps = {
     },
     lang: {
         home: "",
-        contact: ""
+        contact: "",
+        skills: "",
+        experiences: "",
+        projects: ""
     }
 };
 

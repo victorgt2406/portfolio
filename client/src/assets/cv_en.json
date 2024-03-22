@@ -1,0 +1,288 @@
+{
+    "presentation": {
+        "fullname": "Víctor Gutiérrez Tovar",
+        "name": "Víctor",
+        "surnames": "Gutiérrez Tovar",
+        "brief": "Final year Software Engineering student, specializing in Data Engineering and Full Stack development."
+    },
+    "skills": [
+        {
+            "title": "Teamwork",
+            "icon": "/imgs/mongoDB.svg",
+            "labels": ["interpersonal skills"]
+        },
+        {
+            "title": "Communication",
+            "icon": "/imgs/comunication.svg",
+            "labels": ["interpersonal skills"]
+        },
+        {
+            "title": "Customer Service",
+            "icon": "/imgs/clientService.svg",
+            "labels": ["interpersonal skills"]
+        },
+        {
+            "title": "AWS",
+            "icon": "/imgs/aws.svg",
+            "labels": ["software", "backend", "cloud"]
+        },
+        {
+            "title": "Azure",
+            "icon": "/imgs/aws.svg",
+            "labels": ["software", "backend", "cloud"]
+        },
+        {
+            "title": "Linode",
+            "icon": "/imgs/aws.svg",
+            "labels": ["software", "backend", "cloud"]
+        },
+        {
+            "title": "Docker",
+            "icon": "/imgs/docker.svg",
+            "labels": ["software", "backend", "cloud"]
+        },
+        {
+            "title": "Kubernetes",
+            "icon": "/imgs/kubernetes.svg",
+            "labels": ["software", "backend", "cloud"]
+        },
+        {
+            "title": "Python",
+            "icon": "/imgs/python.svg",
+            "labels": [
+                "software",
+                "data engineer",
+                "computer science",
+                "programming languages"
+            ]
+        },
+        {
+            "title": "Keras",
+            "icon": "/imgs/keras.svg",
+            "labels": ["software", "computer science"]
+        },
+        {
+            "title": "R",
+            "icon": "/imgs/r.svg",
+            "labels": ["software", "data engineer", "programming languages"]
+        },
+        {
+            "title": "Java",
+            "icon": "/imgs/java.svg",
+            "labels": ["software", "programming languages"]
+        },
+        {
+            "title": "C",
+            "icon": "/imgs/c.svg",
+            "labels": ["software", "programming languages"]
+        },
+        {
+            "title": "C++",
+            "icon": "/imgs/cpp.svg",
+            "labels": ["software", "programming languages"]
+        },
+        {
+            "title": "JavaScript",
+            "icon": "/imgs/javaScript.svg",
+            "labels": ["software", "frontend", "web", "programming languages"]
+        },
+        {
+            "title": "NodeJS",
+            "icon": "/imgs/nodeJS.svg",
+            "labels": ["software", "backend", "web"]
+        },
+        {
+            "title": "TypeScript",
+            "icon": "/imgs/typeScript.svg",
+            "labels": [
+                "software",
+                "frontend",
+                "backend",
+                "web",
+                "programming languages"
+            ]
+        },
+        {
+            "title": "Dart",
+            "icon": "/imgs/dart.svg",
+            "labels": [
+                "software",
+                "frontend",
+                "backend",
+                "web",
+                "programming languages"
+            ]
+        },
+        {
+            "title": "MongoDB",
+            "icon": "/imgs/mongoDB.svg",
+            "labels": ["software", "databases"]
+        },
+        {
+            "title": "Neo4j",
+            "icon": "/imgs/neo4j.svg",
+            "labels": ["software", "databases"]
+        },
+        {
+            "title": "Redis",
+            "icon": "/imgs/redis.svg",
+            "labels": ["software", "databases"]
+        },
+        {
+            "title": "MySql",
+            "icon": "/imgs/mysql.svg",
+            "labels": ["software", "databases"]
+        },
+        {
+            "title": "MariaDB",
+            "icon": "/imgs/mariaDB.svg",
+            "labels": ["software", "databases"]
+        },
+        {
+            "title": "Spanish (native)",
+            "icon": "/imgs/spanish.svg",
+            "labels": ["language"]
+        },
+        {
+            "title": "English (C1)",
+            "icon": "/imgs/english.svg",
+            "labels": ["language"]
+        }
+    ],
+    "education": [
+        {
+            "company": "Idaho Falls High School",
+            "icon": "/imgs/mongoDB.svg",
+            "location": "Idaho, United States",
+            "start": "2018-08-01",
+            "end": "2019-05-31",
+            "years": [
+                {
+                    "start": "2018-08-01",
+                    "end": "2019-05-31",
+                    "title": "First year of High School (11th grade)",
+                    "honors": []
+                }
+            ]
+        },
+        {
+            "company": "Colegio San Gabriel Madrid",
+            "icon": "/imgs/mongoDB.svg",
+            "location": "Madrid, Spain",
+            "start": "2019-09-01",
+            "end": "2020-06-30",
+            "years": [
+                {
+                    "start": "2019-09-01",
+                    "end": "2020-06-30",
+                    "title": "Second year of High School (12th grade)",
+                    "honors": []
+                }
+            ]
+        },
+        {
+            "company": "U-tad",
+            "icon": "/imgs/mongoDB.svg",
+            "location": "Madrid, Spain",
+            "start": "2020-10-01",
+            "end": "2024-06-01",
+            "years": [
+                {
+                    "start": "2020-10-01",
+                    "end": "2019-05-31",
+                    "title": "First year of Software Engineering",
+                    "honors": ["Honor Roll in Introduction to Programming II"]
+                },
+                {
+                    "start": "2020-09-01",
+                    "end": "2019-05-31",
+                    "title": "Second year of Software Engineering",
+                    "honors": []
+                },
+                {
+                    "start": "2022-09-18",
+                    "end": "2023-05-31",
+                    "title": "Third year of Software Engineering",
+                    "honors": ["Honor Roll in Distributed Systems"]
+                },
+                {
+                    "start": "2023-09-14",
+                    "end": "2024-06-01",
+                    "title": "Fourth year of Software Engineering",
+                    "honors": []
+                }
+            ]
+        }
+    ],
+    "experience": [
+        {
+            "company": "Cedar Fair | Valleyfair",
+            "image": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/0c64b49580bcd35a0d795195d5ac7c36",
+            "position": {
+                "title": "Ride Operator",
+                "description": [
+                    "Improved oral expression and public interaction, as well as leadership in different scenarios. Recognized by iROC for outstanding public engagement and professionalism, awarded with the “Golden Thumb” prize."
+                ],
+                "skills": ["Teamwork", "Leadership", "Public Interaction"]
+            },
+            "start": "2023-07-01",
+            "end": "2023-09-17",
+            "location": "Minnesota, USA"
+        },
+        {
+            "company": "Tabacalera",
+            "image": "https://media.licdn.com/dms/image/C4D0BAQHGDmfvQgGqdQ/company-logo_200_200/0/1630579461247/tabacalera_logo?e=2147483647&v=beta&t=raoSEEia3kncJpXogLiBL_5ModjD1DyAs-JFXQnc3Yw",
+            "position": {
+                "title": "Internship | Data Engineer",
+                "description": [
+                    "Internship as a Data Engineer, initiating a project with Microsoft's MsGraph tool for anomaly or risk detection.",
+                    "Learned a lot about data collection with MsGraph, obtaining data mainly from Intune and Microsoft 365. Developed a daemon to collect these data and store them in the Elasticsearch and Opensearch search engines.",
+                    "For various reasons, Elasticsearch was chosen as the search engine to continue the project. Expanded my knowledge by creating visualizations of MsGraph data with Kibana and implemented watchers to alert possible risks based on the data."
+                ],
+                "skills": [
+                    "Elasticsearch",
+                    "Kibana",
+                    "OpenSearch",
+                    "OpenSearch Dashboard",
+                    "Microsoft Graph",
+                    "Python",
+                    "Microservices",
+                    "Hyper V | Windows Server"
+                ]
+            },
+            "start": "2024-02-01",
+            "end": "2023-03-15",
+            "location": "Madrid, Spain"
+        }
+    ],
+    "projects": [
+        {
+            "id": "u-tadSports",
+            "title": "U-tad Sports",
+            "description": "<h4>Context</h4>During the third year of Software Engineering, in the Projects course, different teams were formed for two different applications, three teams for one and another three teams for the other. Each application was represented by a client, as they would determine which of them meets their requirements.<br><br>In the case of our team, we had to develop a sports tournament application for the university. After three months of development, we had to present the project, and after review by the different clients, it was awarded as the best application of the three teams. <br><br><h4>Objective</h4>To create an application for managing tournaments and sporting activities, to allow students to sign up for various activities and competitions, as well as to monitor their progress and historical results, including also the management and tracking of teams.<br><br><h4>Technologies</h4><ul><li>React (front)</li><li>NodeJs (back)</li><li>MongoDB (db)</li>",
+            "img": "/projects/u-tad_sports/news_web.png",
+            "links": [
+                {
+                    "title": "Recognition as the best application of the Projects course in the third year.",
+                    "url": "https://www.linkedin.com/posts/victor-gutierrez-tovar_reconocimiento-a-la-mejor-aplicaci%C3%B3n-de-activity-7112555190678933504-lKK_?utm_source=share&utm_medium=member_desktop"
+                },
+                {
+                    "title": "Publication by Dánae Cortés.",
+                    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7112472465150230528?utm_source=share&utm_medium=member_desktop"
+                }
+            ]
+        },
+        {
+            "id": "laEscoba",
+            "title": "The Broom",
+            "description": "Personal project carried out after finishing my first year of university with limited knowledge in CSS, JS, and HTML technologies. I did not use any type of framework, neither for the design nor for the JS. This code is from the year 2021, and I spent approximately 2 weeks on its development. Although the website is quite basic, it helped me a lot to understand the inner workings of JavaScript and its connection with the DOM. I also experimented with creating an algorithm to eventually create a bot that, using a points system for the different possible plays, would always choose the best one. It's good enough to beat me every time.",
+            "img": "/projects/la_escoba/la_escoba.png",
+            "links": [
+                {
+                    "title": "The Broom",
+                    "url": "https://github.com/victorgt2406/la_escoba"
+                }
+            ]
+        }
+    ]
+}

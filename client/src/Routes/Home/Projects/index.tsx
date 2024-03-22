@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import Project from "./Project";
 import Context from "../../../utils/Context";
+import capitalizeFirstLetter from "../../../utils/capitalizeFirstLetter";
 
 export default function Projects() {
     const context = useContext(Context);
@@ -12,7 +13,7 @@ export default function Projects() {
 
     return (
         <div className="my-3 d-flex flex-column justify-content-center">
-            <h2>Projects</h2>
+            <h2>{capitalizeFirstLetter(context.lang.projects)}</h2>
             <div className="d-flex justify-content-start flex-wrap">{...projects}</div>
         </div>
     );

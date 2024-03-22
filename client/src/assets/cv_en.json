@@ -3,23 +3,23 @@
         "fullname": "Víctor Gutiérrez Tovar",
         "name": "Víctor",
         "surnames": "Gutiérrez Tovar",
-        "brief": "Estudiante de final de año de Ingeniería del Software, especializado en Data Engineering y Full Stack development."
+        "brief": "Final year Software Engineering student, specializing in Data Engineering and Full Stack development."
     },
     "skills": [
         {
-            "title": "Trabajo en equipo",
+            "title": "Teamwork",
             "icon": "/imgs/mongoDB.svg",
-            "labels": ["competencias interpersonales"]
+            "labels": ["interpersonal skills"]
         },
         {
-            "title": "Comunicación",
+            "title": "Communication",
             "icon": "/imgs/comunication.svg",
-            "labels": ["competencias interpersonales"]
+            "labels": ["interpersonal skills"]
         },
         {
-            "title": "Servicio al cliente",
+            "title": "Customer Service",
             "icon": "/imgs/clientService.svg",
-            "labels": ["competencias interpersonales"]
+            "labels": ["interpersonal skills"]
         },
         {
             "title": "AWS",
@@ -49,7 +49,12 @@
         {
             "title": "Python",
             "icon": "/imgs/python.svg",
-            "labels": ["software", "data engineer", "computer science", "lenguajes de programación"]
+            "labels": [
+                "software",
+                "data engineer",
+                "computer science",
+                "programming languages"
+            ]
         },
         {
             "title": "Keras",
@@ -59,32 +64,27 @@
         {
             "title": "R",
             "icon": "/imgs/r.svg",
-            "labels": ["software", "data engineer", "lenguajes de programación"]
+            "labels": ["software", "data engineer", "programming languages"]
         },
         {
             "title": "Java",
             "icon": "/imgs/java.svg",
-            "labels": ["software", "lenguajes de programación"]
+            "labels": ["software", "programming languages"]
         },
         {
             "title": "C",
             "icon": "/imgs/c.svg",
-            "labels": ["software", "lenguajes de programación"]
+            "labels": ["software", "programming languages"]
         },
         {
             "title": "C++",
             "icon": "/imgs/cpp.svg",
-            "labels": ["software", "lenguajes de programación"]
+            "labels": ["software", "programming languages"]
         },
         {
             "title": "JavaScript",
             "icon": "/imgs/javaScript.svg",
-            "labels": [
-                "software",
-                "frontend",
-                "web",
-                "lenguajes de programación"
-            ]
+            "labels": ["software", "frontend", "web", "programming languages"]
         },
         {
             "title": "NodeJS",
@@ -99,7 +99,7 @@
                 "frontend",
                 "backend",
                 "web",
-                "lenguajes de programación"
+                "programming languages"
             ]
         },
         {
@@ -110,57 +110,57 @@
                 "frontend",
                 "backend",
                 "web",
-                "lenguajes de programación"
+                "programming languages"
             ]
         },
         {
             "title": "MongoDB",
             "icon": "/imgs/mongoDB.svg",
-            "labels": ["software", "bases de datos"]
+            "labels": ["software", "databases"]
         },
         {
             "title": "Neo4j",
             "icon": "/imgs/neo4j.svg",
-            "labels": ["software", "bases de datos"]
+            "labels": ["software", "databases"]
         },
         {
             "title": "Redis",
             "icon": "/imgs/redis.svg",
-            "labels": ["software", "bases de datos"]
+            "labels": ["software", "databases"]
         },
         {
             "title": "MySql",
             "icon": "/imgs/mysql.svg",
-            "labels": ["software", "bases de datos"]
+            "labels": ["software", "databases"]
         },
         {
             "title": "MariaDB",
             "icon": "/imgs/mariaDB.svg",
-            "labels": ["software", "bases de datos"]
+            "labels": ["software", "databases"]
         },
         {
-            "title": "Español (nativo)",
+            "title": "Spanish (native)",
             "icon": "/imgs/spanish.svg",
-            "labels": ["idioma"]
+            "labels": ["language"]
         },
         {
-            "title": "Inglés (C1)",
+            "title": "English (C1)",
             "icon": "/imgs/english.svg",
-            "labels": ["idioma"]
+            "labels": ["language"]
         }
     ],
     "education": [
         {
             "company": "Idaho Falls High School",
             "icon": "/imgs/mongoDB.svg",
-            "location": "Idaho, Estados Unidos",
+            "location": "Idaho, United States",
             "start": "2018-08-01",
             "end": "2019-05-31",
             "years": [
                 {
                     "start": "2018-08-01",
                     "end": "2019-05-31",
-                    "title": "Primero de Bachillerato (11th grade)",
+                    "title": "First year of High School (11th grade)",
                     "honors": []
                 }
             ]
@@ -168,14 +168,14 @@
         {
             "company": "Colegio San Gabriel Madrid",
             "icon": "/imgs/mongoDB.svg",
-            "location": "Madrid, España",
+            "location": "Madrid, Spain",
             "start": "2019-09-01",
             "end": "2020-06-30",
             "years": [
                 {
                     "start": "2019-09-01",
                     "end": "2020-06-30",
-                    "title": "Segundo de Bachillerato (12th grade)",
+                    "title": "Second year of High School (12th grade)",
                     "honors": []
                 }
             ]
@@ -183,34 +183,32 @@
         {
             "company": "U-tad",
             "icon": "/imgs/mongoDB.svg",
-            "location": "Madrid, España",
+            "location": "Madrid, Spain",
             "start": "2020-10-01",
             "end": "2024-06-01",
             "years": [
                 {
                     "start": "2020-10-01",
                     "end": "2019-05-31",
-                    "title": "Primero de Ingeniería del Software",
-                    "honors": [
-                        "Matrícula de honor en Introducción a la Programación II"
-                    ]
+                    "title": "First year of Software Engineering",
+                    "honors": ["Honor Roll in Introduction to Programming II"]
                 },
                 {
                     "start": "2020-09-01",
                     "end": "2019-05-31",
-                    "title": "Segundo de Ingeniería del Software",
+                    "title": "Second year of Software Engineering",
                     "honors": []
                 },
                 {
                     "start": "2022-09-18",
                     "end": "2023-05-31",
-                    "title": "Tercero de Ingeniería del Software",
-                    "honors": ["Matrícula de honor en Sistemas Distribuidos"]
+                    "title": "Third year of Software Engineering",
+                    "honors": ["Honor Roll in Distributed Systems"]
                 },
                 {
                     "start": "2023-09-14",
                     "end": "2024-06-01",
-                    "title": "Cuarto de Ingeniería del Software",
+                    "title": "Fourth year of Software Engineering",
                     "honors": []
                 }
             ]
@@ -221,29 +219,25 @@
             "company": "Cedar Fair | Valleyfair",
             "image": "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/0c64b49580bcd35a0d795195d5ac7c36",
             "position": {
-                "title": "Operador de máquinas",
+                "title": "Ride Operator",
                 "description": [
-                    "Mejora en la expresión oral e interacción con el público, así como en el liderazgo en diferentes escenarios. Reconocimiento de iROC por una sobresaliente participación con el público y profesionalismo, galardonado con el premio “Golden Thumb”."
+                    "Improved oral expression and public interaction, as well as leadership in different scenarios. Recognized by iROC for outstanding public engagement and professionalism, awarded with the “Golden Thumb” prize."
                 ],
-                "skills": [
-                    "Trabajo en equipo",
-                    "Liderazgo",
-                    "Interacción con el público"
-                ]
+                "skills": ["Teamwork", "Leadership", "Public Interaction"]
             },
             "start": "2023-07-01",
             "end": "2023-09-17",
-            "location": "Minnesota, EE.UU."
+            "location": "Minnesota, USA"
         },
         {
             "company": "Tabacalera",
             "image": "https://media.licdn.com/dms/image/C4D0BAQHGDmfvQgGqdQ/company-logo_200_200/0/1630579461247/tabacalera_logo?e=2147483647&v=beta&t=raoSEEia3kncJpXogLiBL_5ModjD1DyAs-JFXQnc3Yw",
             "position": {
-                "title": "Prácticas | Data engineer",
+                "title": "Internship | Data Engineer",
                 "description": [
-                    "Prácticas como Data engineer, donde estuve iniciando un proyecto con la herramienta MsGraph de microsoft para detectar anomalías o riesgos",
-                    "Aprendí mucho a recopilar datos con MsGraph donde obtuve datos principalmente de Intune y de Microsoft 365. Desarrolle un demonio para obtener estos datos y almacenarlos en el motor de búsqueda Elasticsearch y Opensearch.",
-                    "Por diferentes motivos, Elasticsearch se escogió como motor de búsqueda con el que continuar el proyecto. para ampliar mi conocimiento realizando visualizaciones de los datos de MsGraph con Kibana e implemente watchers para avisar de posibles riesgos basados en los datos."
+                    "Internship as a Data Engineer, initiating a project with Microsoft's MsGraph tool for anomaly or risk detection.",
+                    "Learned a lot about data collection with MsGraph, obtaining data mainly from Intune and Microsoft 365. Developed a daemon to collect these data and store them in the Elasticsearch and Opensearch search engines.",
+                    "For various reasons, Elasticsearch was chosen as the search engine to continue the project. Expanded my knowledge by creating visualizations of MsGraph data with Kibana and implemented watchers to alert possible risks based on the data."
                 ],
                 "skills": [
                     "Elasticsearch",
@@ -258,34 +252,34 @@
             },
             "start": "2024-02-01",
             "end": "2023-03-15",
-            "location": "Madrid, España"
+            "location": "Madrid, Spain"
         }
     ],
     "projects": [
         {
             "id": "u-tadSports",
             "title": "U-tad Sports",
-            "description": "<h4>Contexto</h4>Durante el tercer año de Ingeniería del Software, en la asignatura de proyectos, se crearon distintos equipos para dos aplicaciones distintas, tres equipos para una y otro tres equipos para otra. Cada aplicación estaba representado por un cliente, ya que este determinaría cual des ellos cumple con sus requisitos.<br><br>En el caso de nuestro equipo, tuvimos que desarrollar una aplicación de torneos deportivos para la universidad. Tras tres meses de desarrollo tuvimos que presentar el proyecto, y tras la revisión por los distintos clientes, este fue galardonado como la mejor aplicación de los tres equipos. <br><br><h4>Objetivo</h4>Crear una aplicación para la gestión de torneos y actividades deportivos, para permitir que los estudiantes se inscriban en diversas actividades y competiciones, así como para monitorear sus progresos y resultados históricos, incluyendo también la gestión y seguimiento de los equipos.<br><br><h4>Tecnologías</h4><ul><li>React (front)</li><li>NodeJs (back)</li><li>MongoDB (db)</li>",
+            "description": "<h4>Context</h4>During the third year of Software Engineering, in the Projects course, different teams were formed for two different applications, three teams for one and another three teams for the other. Each application was represented by a client, as they would determine which of them meets their requirements.<br><br>In the case of our team, we had to develop a sports tournament application for the university. After three months of development, we had to present the project, and after review by the different clients, it was awarded as the best application of the three teams. <br><br><h4>Objective</h4>To create an application for managing tournaments and sporting activities, to allow students to sign up for various activities and competitions, as well as to monitor their progress and historical results, including also the management and tracking of teams.<br><br><h4>Technologies</h4><ul><li>React (front)</li><li>NodeJs (back)</li><li>MongoDB (db)</li>",
             "img": "/projects/u-tad_sports/news_web.png",
             "links": [
                 {
-                    "title": "Reconocimiento a la mejor aplicación de la asignatura Proyectos del tercer curso.",
+                    "title": "Recognition as the best application of the Projects course in the third year.",
                     "url": "https://www.linkedin.com/posts/victor-gutierrez-tovar_reconocimiento-a-la-mejor-aplicaci%C3%B3n-de-activity-7112555190678933504-lKK_?utm_source=share&utm_medium=member_desktop"
                 },
                 {
-                    "title": "Publicación de Dánae Cortés.",
+                    "title": "Publication by Dánae Cortés.",
                     "url": "https://www.linkedin.com/feed/update/urn:li:activity:7112472465150230528?utm_source=share&utm_medium=member_desktop"
                 }
             ]
         },
         {
             "id": "laEscoba",
-            "title": "La escoba",
-            "description": "Proyecto personal que realice tras finalizar mi primer año de carrera con el escaso conocimiento en las tecnologías css, js y html. No utilice ningun tipo de framework, ni para el diseño y tampoco para el js. Esta código es del año 2021 y estuve aproximadamente 2 semanas en realizorlo. Aunque la web es bastante básica, me ayudo mucho a entender las tripas de JavaScript y su conexión con el DOM. También experimente creando un algoritmo para crear al final un bot que con sistemas de puntos por las diferentes jugadas posibles escogiese este siempre la mejor posible. Es lo suficientemente bueno como para ganarme a mi todo el rato.",
+            "title": "The Broom",
+            "description": "Personal project carried out after finishing my first year of university with limited knowledge in CSS, JS, and HTML technologies. I did not use any type of framework, neither for the design nor for the JS. This code is from the year 2021, and I spent approximately 2 weeks on its development. Although the website is quite basic, it helped me a lot to understand the inner workings of JavaScript and its connection with the DOM. I also experimented with creating an algorithm to eventually create a bot that, using a points system for the different possible plays, would always choose the best one. It's good enough to beat me every time.",
             "img": "/projects/la_escoba/la_escoba.png",
             "links": [
                 {
-                    "title": "La escoba",
+                    "title": "The Broom",
                     "url": "https://github.com/victorgt2406/la_escoba"
                 }
             ]

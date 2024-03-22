@@ -3,6 +3,7 @@ import Context from "../../../utils/Context";
 import Label from "./Label";
 import Skill from "./Skill";
 import { AnimatePresence, motion } from "framer-motion";
+import capitalizeFirstLetter from "../../../utils/capitalizeFirstLetter";
 
 type SkillType = {
     title: string;
@@ -40,7 +41,7 @@ export default function Skills() {
     skills.sort((a, b) => a.title.localeCompare(b.title));
     return (
         <div>
-            <h2>Compentencias</h2>
+            <h2>{capitalizeFirstLetter(context.lang.skills)}</h2>
             {/* Labels */}
             <div className="d-flex flex-wrap justify-content-center">
                 {uniqLabels.map((uniqLabel, index) => (

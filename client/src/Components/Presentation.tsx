@@ -1,4 +1,6 @@
+import { useContext } from "react";
 import cvPhoto from "../assets/cv_photo.png";
+import Context from "../utils/Context";
 
 type BestSkillsProps = {
     name: string;
@@ -15,6 +17,9 @@ function BestSkills(props: BestSkillsProps) {
 }
 
 export default function Presentation() {
+    const { cv } = useContext(Context);
+
+
     const cvPhotoSize = 170;
     const bestSkills: JSX.Element[] = [
         <BestSkills
@@ -36,11 +41,10 @@ export default function Presentation() {
             {/* Nombre y resumen */}
             <div className="col-sm-8 col-12 d-flex flex-column justify-content-center p-3">
                 {/* nombre */}
-                <h1 className="mb-4">Víctor Gutiérrez Tovar</h1>
+                <h1 className="mb-4">{cv.presentation.fullname}</h1>
                 {/* resumen */}
                 <h4>
-                    Final Year Software Engineering Student with Full Stack and
-                    Data Engineering Skills
+                    {cv.presentation.brief}
                 </h4>
                 {/* skills */}
                 <div className="d-flex align-items-center flex-wrap ps-3">

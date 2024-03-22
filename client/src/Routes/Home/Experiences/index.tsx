@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import Context from "../../../utils/Context";
 import Experience from "./Experience";
+import capitalizeFirstLetter from "../../../utils/capitalizeFirstLetter";
 
 
 export default function Experiences() {
@@ -9,7 +10,7 @@ export default function Experiences() {
 
     return (
         <div className="d-flex flex-column w-100">
-            <h2>Experiences</h2>
+            <h2>{capitalizeFirstLetter(context.lang.experiences)}</h2>
             {...Exps}
         </div>
     );

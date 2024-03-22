@@ -1,9 +1,10 @@
 import React, { createContext, useEffect, useState } from "react";
-import { CV as CVtype } from "./CVtype";
+import { CV as CVtype } from "../types/CVtypes";
 import cv_es from "../assets/cv_es.json";
 import Cookies from "js-cookie";
-import getSystemLang from "./getSystemLang";
-import { Darkmode, Lang } from "./types";
+import getSystemLangOption from "./getSystemLangOption";
+import { Darkmode, LangOption, LANGS } from "../types/OptionsTypes";
+import { Lang } from "../types/LangType";
 
 const CV = {
     en: cv_es,
@@ -14,8 +15,9 @@ type ContextProps = {
     cv: CVtype;
     dark: Darkmode;
     setDark: (dark: Darkmode) => void;
+    langOption: LangOption;
     lang: Lang;
-    setLang: (lang: Lang) => void;
+    setLangOption: (lang: LangOption) => void;
 };
 
 const defaultValues: ContextProps = {
@@ -23,8 +25,8 @@ const defaultValues: ContextProps = {
     setDark: function (): void {
         throw new Error("Function not implemented.");
     },
-    lang: "en",
-    setLang: function (): void {
+    langOption: "en",
+    setLangOption: function (): void {
         throw new Error("Function not implemented.");
     },
     cv: {
@@ -38,14 +40,19 @@ const defaultValues: ContextProps = {
         experience: [],
         projects: [],
     },
+    lang: {
+        home: "",
+        contact: ""
+    }
 };
 
 const Context = createContext<ContextProps>(defaultValues);
 
 function ContextProvider({ children }: { children: React.ReactNode }) {
     const [dark, setDark] = useState<Darkmode>("System 💻");
-    const [lang, setLang] = useState<Lang>(getSystemLang());
+    const [langOption, setLangOption] = useState<LangOption>(getSystemLangOption());
     const [cv, setCv] = useState<CVtype>(cv_es);
+    const [lang, setLang] = useState(LANGS["es"])
 
     const handleSetDark = (dark: Darkmode) => {
         switch (dark) {
@@ -84,9 +91,10 @@ function ContextProvider({ children }: { children: React.ReactNode }) {
         Cookies.set("dark", dark);
     };
 
-    const handleSetLanguage = (lang: Lang) => {
+    const handleSetLanguage = (lang: LangOption) => {
         setCv(CV[lang]);
-        setLang(lang);
+        setLangOption(lang);
+        setLang(LANGS[lang]);
         Cookies.set("lang", lang);
     };
 
@@ -94,15 +102,16 @@ function ContextProvider({ children }: { children: React.ReactNode }) {
         cv,
         dark,
         setDark: handleSetDark,
-        lang,
-        setLang: handleSetLanguage,
+        langOption: langOption,
+        setLangOption: handleSetLanguage,
+        lang
     };
 
     useEffect(() => {
         if (Cookies.get("dark")) handleSetDark(Cookies.get("dark") as Darkmode);
         else handleSetDark(dark)
-        if (Cookies.get("lang")) handleSetLanguage(Cookies.get("lang") as Lang);
-        else handleSetLanguage(lang)
+        if (Cookies.get("lang")) handleSetLanguage(Cookies.get("lang") as LangOption);
+        else handleSetLanguage(langOption)
         Cookies.set(
             "visits",
             JSON.stringify([

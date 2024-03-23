@@ -1,47 +1,35 @@
 import { Education } from "../../types/CVtypes";
+import Location from "../Location";
+import Year from "./Year";
 
 export default function Experience({
     icon,
     company,
-    start,
-    end,
-    location
+    location,
+    years,
 }: Education) {
-    const startDate = new Date(start);
-    const endDate = new Date(end);
-
     return (
-        <div className="card my-1">
-            <div className="d-flex w-100 align-items-start justify-content-between fs-6">
-                <div className="d-flex align-items-start">
-                    <img
-                        style={{
-                            height: "50px",
-                        }}
-                        className="rounded-1"
-                        src={icon}
-                    />
-                    <div className="ms-2">
+        <div className="card">
+            <div className="d-flex w-100 align-items-start justify-content-between">
+                <img
+                    style={{
+                        height: "50px",
+                    }}
+                    className="rounded-1"
+                    src={icon}
+                />
+                <div className="w-100 d-flex flex-column ps-2">
+                    <div className="d-flex justify-content-between w-100 fs-6">
                         <div className="fw-bold">{company}</div>
+                        <Location location={location} className="fst-italic mx-2"/>
                     </div>
-                </div>
-                <div className="d-flex flex-column align-items-end">
-                    <div className="fst-italic fw-bold">{location}</div>
-                    <div className="d-flex justify-content-end fst-italic fw-lighter">
-                        <div className="pe-2">
-                            {(startDate.getMonth() + 1)
-                                .toString()
-                                .padStart(2, "0")}
-                            /{startDate.getFullYear()}
-                        </div>
-                        -
-                        <div className="ps-2">
-                            {(endDate.getMonth() + 1)
-                                .toString()
-                                .padStart(2, "0")}
-                            /{endDate.getFullYear()}
-                        </div>
-                    </div>
+                    <ul className="d-flex flex-column w-100 m-0 mt-1">
+                        {years.map((year, index) => (
+                            <li>
+                                <Year key={index} {...year} />
+                            </li>
+                        ))}
+                    </ul>
                 </div>
             </div>
         </div>

@@ -1,3 +1,5 @@
+import Dates from "../Dates";
+import Location from "../Location";
 import Description from "./Description";
 
 type MyProps = {
@@ -21,11 +23,8 @@ export default function Experience({
     position,
     location
 }: MyProps) {
-    const startDate = new Date(start);
-    const endDate = new Date(end);
-
     return (
-        <div className="card my-1">
+        <div className="card">
             <div className="d-flex w-100 align-items-start justify-content-between fs-5">
                 <div className="d-flex align-items-start">
                     <img
@@ -41,21 +40,9 @@ export default function Experience({
                     </div>
                 </div>
                 <div className="d-flex flex-column align-items-end">
-                    <div className="fst-italic fw-bold">{location}</div>
+                    <Location location={location} className="fst-italic fw-bold"/>
                     <div className="d-flex justify-content-end fst-italic fw-lighter">
-                        <div className="pe-2">
-                            {(startDate.getMonth() + 1)
-                                .toString()
-                                .padStart(2, "0")}
-                            /{startDate.getFullYear()}
-                        </div>
-                        -
-                        <div className="ps-2">
-                            {(endDate.getMonth() + 1)
-                                .toString()
-                                .padStart(2, "0")}
-                            /{endDate.getFullYear()}
-                        </div>
+                        <Dates {...{start, end}}/>
                     </div>
                 </div>
             </div>

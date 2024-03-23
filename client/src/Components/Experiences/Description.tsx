@@ -11,7 +11,7 @@ export default function Description({ description, skills }: MyProps) {
     const context = useContext(Context);
 
     const descriptionElements = description.map((desc, index) => (
-        <li key={index} className="my-1 fw-light">
+        <li key={index} className="fw-light">
             {desc}
         </li>
     ));
@@ -19,9 +19,9 @@ export default function Description({ description, skills }: MyProps) {
     return (
         <div className="d-flex flex-column">
             <div className="ps-1">
-                <ul>{...descriptionElements}</ul>
+                <ul className="m-0">{...descriptionElements}</ul>
             </div>
-            <div className="mt-1 d-flex justify-content-start align-items-center w-100 flex-wrap">
+            <div className="d-flex justify-content-start align-items-center w-100 flex-wrap mt-1">
                 <span className="me-2">
                     {capitalizeFirstLetter(context.lang.skills)} :
                 </span>

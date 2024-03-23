@@ -37,9 +37,9 @@ export default function Presentation() {
     ];
 
     return (
-        <div className="d-flex justify-content-between flex-wrap-reverse w-100">
+        <div className="d-flex justify-content-between flex-wrap-reverse w-100 py-2">
             {/* Nombre y resumen */}
-            <div className="col-sm-8 col-12 d-flex flex-column justify-content-center p-3">
+            <div className="col-sm-8 col-12 d-flex flex-column justify-content-center">
                 {/* nombre */}
                 <h1 className="mb-4">{cv.presentation.fullname}</h1>
                 {/* resumen */}

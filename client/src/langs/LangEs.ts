@@ -4,7 +4,7 @@ const langEs: Lang = {
     home: "inicio",
     contact: "contacto",
     skills: "competencias",
-    experiences: "experiencia",
+    experiences: "experiencia profesional",
     projects: "proyectos"
 }
 

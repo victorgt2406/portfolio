@@ -1,7 +1,8 @@
 import NavBar from "../../Components/NavBar";
+import Presentation from "../../Components/Presentation";
 // import Carousel from "./Carousel";
 import Experiences from "./Experiences";
-import Presentation from "./Presentation";
+// import Presentation from "./Presentation";
 import Projects from "./Projects";
 import Skills from "./Skills";
 

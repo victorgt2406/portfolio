@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import Presentation from "../../Components/Presentation";
-import Experiences from "./Experiences";
+import Experiences from "../../Components/Experiences";
 import "./cv.css";
 import Skills from "./Skills";
 

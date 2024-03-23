@@ -1,7 +1,7 @@
 import { useContext } from "react";
-import Context from "../../../utils/Context";
+import Context from "../../utils/Context";
 import Experience from "./Experience";
-import capitalizeFirstLetter from "../../../utils/capitalizeFirstLetter";
+import capitalizeFirstLetter from "../../utils/capitalizeFirstLetter";
 
 
 export default function Experiences() {

@@ -26,7 +26,7 @@ export default function Experience({
 
     return (
         <div className="card my-1">
-            <div className="d-flex w-100 align-items-start justify-content-between" style={{fontSize: "16px"}}>
+            <div className="d-flex w-100 align-items-start justify-content-between fs-5">
                 <div className="d-flex align-items-start">
                     <img
                         style={{

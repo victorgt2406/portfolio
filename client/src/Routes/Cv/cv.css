@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-size: 12px;
 }
 
 .A4 {
@@ -7,27 +8,27 @@ body {
     height: 296mm;
 }
 
-.h1, h1 {
-    font-size: 30px;
+.h1, h1, .fs-1 {
+    font-size: 30px !important; 
 }
 
-.h2, h2 {
-    font-size: 26px;
+.h2, h2, .fs-2 {
+    font-size: 26px !important; 
 }
 
-.h3, h3 {
-    font-size: 22px;
+.h3, h3, .fs-3 {
+    font-size: 22px !important; 
 }
 
-.h4, h4 {
-    font-size: 18px;
+.h4, h4, .fs-4 {
+    font-size: 18px !important; 
 }
 
-.h5, h5 {
-    font-size: 16px;
+.h5, h5, .fs-5 {
+    font-size: 16px !important; 
 }
-.h6, h6 {
-    font-size: 14px;
+.h6, h6, .fs-6 {
+    font-size: 14px !important; 
 }
 
 @page {

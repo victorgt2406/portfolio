@@ -7,7 +7,7 @@ import getSystemLangOption from "./getSystemLangOption";
 import { Darkmode, LangOption, LANGS } from "../types/OptionsTypes";
 import { Lang } from "../types/LangType";
 
-const CV : Record<LangOption, CVtype>= {
+const CV: Record<LangOption, CVtype> = {
     en: cv_en,
     es: cv_es,
 };
@@ -35,7 +35,7 @@ const defaultValues: ContextProps = {
             fullname: "",
             name: "",
             surnames: "",
-            brief: ""
+            brief: "",
         },
         skills: [],
         education: [],
@@ -47,17 +47,19 @@ const defaultValues: ContextProps = {
         contact: "",
         skills: "",
         experiences: "",
-        projects: ""
-    }
+        projects: "",
+    },
 };
 
 const Context = createContext<ContextProps>(defaultValues);
 
 function ContextProvider({ children }: { children: React.ReactNode }) {
     const [dark, setDark] = useState<Darkmode>("System 💻");
-    const [langOption, setLangOption] = useState<LangOption>(getSystemLangOption());
+    const [langOption, setLangOption] = useState<LangOption>(
+        getSystemLangOption()
+    );
     const [cv, setCv] = useState<CVtype>(cv_es);
-    const [lang, setLang] = useState(LANGS["es"])
+    const [lang, setLang] = useState(LANGS["es"]);
 
     const handleSetDark = (dark: Darkmode) => {
         switch (dark) {
@@ -65,13 +67,27 @@ function ContextProvider({ children }: { children: React.ReactNode }) {
                 // alert("light mode");
                 document
                     .getElementById("style")!
-                    .setAttribute("href", "/styles/light.css");
+                    .setAttribute(
+                        "href",
+                        `${
+                            process.env.NODE_ENV !== "production"
+                                ? "/"
+                                : "/portfolio"
+                        }styles/light.css`
+                    );
                 break;
             case "Dark 🌙":
                 // alert("dark mode");
                 document
                     .getElementById("style")!
-                    .setAttribute("href", "/styles/dark.css");
+                    .setAttribute(
+                        "href",
+                        `${
+                            process.env.NODE_ENV !== "production"
+                                ? "/"
+                                : "/portfolio"
+                        }styles/dark.css`
+                    );
                 break;
             case "System 💻":
                 // eslint-disable-next-line no-case-declarations
@@ -82,13 +98,27 @@ function ContextProvider({ children }: { children: React.ReactNode }) {
                 if (systemDark) {
                     document
                         .getElementById("style")!
-                        .setAttribute("href", "/styles/dark.css");
+                        .setAttribute(
+                            "href",
+                            `${
+                                process.env.NODE_ENV !== "production"
+                                    ? "/"
+                                    : "/portfolio"
+                            }styles/dark.css`
+                        );
                 }
                 // Light ☀️
                 else {
                     document
                         .getElementById("style")!
-                        .setAttribute("href", "/styles/light.css");
+                        .setAttribute(
+                            "href",
+                            `${
+                                process.env.NODE_ENV !== "production"
+                                    ? "/"
+                                    : "/portfolio"
+                            }styles/light.css`
+                        );
                 }
                 break;
         }
@@ -109,14 +139,15 @@ function ContextProvider({ children }: { children: React.ReactNode }) {
         setDark: handleSetDark,
         langOption: langOption,
         setLangOption: handleSetLanguage,
-        lang
+        lang,
     };
 
     useEffect(() => {
         if (Cookies.get("dark")) handleSetDark(Cookies.get("dark") as Darkmode);
-        else handleSetDark(dark)
-        if (Cookies.get("lang")) handleSetLanguage(Cookies.get("lang") as LangOption);
-        else handleSetLanguage(langOption)
+        else handleSetDark(dark);
+        if (Cookies.get("lang"))
+            handleSetLanguage(Cookies.get("lang") as LangOption);
+        else handleSetLanguage(langOption);
         Cookies.set(
             "visits",
             JSON.stringify([
@@ -128,13 +159,14 @@ function ContextProvider({ children }: { children: React.ReactNode }) {
         );
         console.log(JSON.parse(Cookies.get("visits")!));
         const systemDark = window.matchMedia("(prefers-color-scheme: dark)");
-        const handleSystemDarkmode = ()=>handleSetDark(Cookies.get("dark")! as Darkmode)
-        systemDark.addEventListener('change', handleSystemDarkmode);
+        const handleSystemDarkmode = () =>
+            handleSetDark(Cookies.get("dark")! as Darkmode);
+        systemDark.addEventListener("change", handleSystemDarkmode);
         return () => {
-            systemDark.removeEventListener('change', handleSystemDarkmode);
+            systemDark.removeEventListener("change", handleSystemDarkmode);
         };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-    },[]);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, []);
 
     return <Context.Provider value={value}>{children}</Context.Provider>;
 }

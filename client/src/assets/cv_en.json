@@ -42,6 +42,16 @@
             "labels": ["software", "backend", "cloud", "data engineer"]
         },
         {
+            "title": "gitHub",
+            "icon": "/imgs/github.svg",
+            "labels": ["software", "devOps"]
+        },
+        {
+            "title": "ArgoCD",
+            "icon": "/imgs/argoCD.svg",
+            "labels": ["software", "devOps", "cloud"]
+        },
+        {
             "title": "Java",
             "icon": "/imgs/java.svg",
             "labels": ["software", "programming languages"]

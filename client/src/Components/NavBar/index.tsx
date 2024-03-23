@@ -4,6 +4,7 @@ import capitalizeFirstLetter from "../../utils/capitalizeFirstLetter";
 import NavLink from "./NavLink";
 import NavBtnDark from "./NavButtons/NavBtnDark";
 import NavBtnLang from "./NavButtons/NavBtnLang";
+import NavBtnPrintCV from "./NavButtons/NavBtnPrintCV";
 
 export default function NavBar() {
     const { lang } = useContext(Context);
@@ -20,7 +21,8 @@ export default function NavBar() {
             icon={<i className="bi bi-person-lines-fill"></i>}
         />,
         <NavBtnLang/>,
-        <NavBtnDark/>
+        <NavBtnDark/>,
+        <NavBtnPrintCV/>
     ];
     return (
         <div

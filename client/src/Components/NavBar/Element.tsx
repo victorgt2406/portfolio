@@ -1,3 +1,5 @@
+// DEPRECATED
+
 import { Link } from "react-router-dom";
 
 type MyProps = {

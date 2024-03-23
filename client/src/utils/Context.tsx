@@ -54,7 +54,7 @@ const defaultValues: ContextProps = {
 const Context = createContext<ContextProps>(defaultValues);
 
 function ContextProvider({ children }: { children: React.ReactNode }) {
-    const [dark, setDark] = useState<Darkmode>("System 💻");
+    const [dark, setDark] = useState<Darkmode>("Sys 💻");
     const [langOption, setLangOption] = useState<LangOption>(
         getSystemLangOption()
     );
@@ -89,7 +89,7 @@ function ContextProvider({ children }: { children: React.ReactNode }) {
                         }styles/dark.css`
                     );
                 break;
-            case "System 💻":
+            case "Sys 💻":
                 // eslint-disable-next-line no-case-declarations
                 const systemDark =
                     window.matchMedia &&

@@ -7,5 +7,5 @@ export default defineConfig({
   server: {
     host: "0.0.0.0" // Listens on all local IPs. Replace `true` with your actual IP if needed.
   },
-  base: "/portfolio/client"
+  base: "/portfolio"
 })

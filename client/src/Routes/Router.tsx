@@ -4,20 +4,12 @@ import Contact from "./Contact";
 
 const router = createBrowserRouter([
     {
-        path: "/",
+        path: `${process.env.NODE_ENV !== "production" ? "/" : "/portfolio"}`,
         element: <Home />,
     },
     {
-        path: "contact",
+        path: `${process.env.NODE_ENV !== "production" ? "/contact" : "/portfolio/contact"}`,
         element: <Contact />,
-    },
-    {
-        path: "skills",
-        element: <div>Skills</div>,
-    },
-    {
-        path: "projects",
-        element: <div>Projects</div>,
     },
 ]);
 

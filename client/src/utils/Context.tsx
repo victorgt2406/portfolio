@@ -85,7 +85,7 @@ function ContextProvider({ children }: { children: React.ReactNode }) {
                         `${
                             process.env.NODE_ENV !== "production"
                                 ? "/"
-                                : "/portfolio"
+                                : "/portfolio/"
                         }styles/dark.css`
                     );
                 break;

@@ -1,3 +1,5 @@
+const style: string = `
+<style>
 body {
     margin: 0;
     font-size: 12px;
@@ -40,3 +42,7 @@ body {
         width: 210mm
     }
 }
+</style>
+`;
+
+export default style;

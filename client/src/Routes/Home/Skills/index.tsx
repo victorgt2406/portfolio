@@ -51,7 +51,7 @@ export default function Skills() {
                         setLabel={handleSetLabel}
                         isSelected={filterLabels.includes(uniqLabel)}
                     >
-                        {uniqLabel}
+                        {capitalizeFirstLetter(uniqLabel)}
                     </Label>
                 ))}
             </div>

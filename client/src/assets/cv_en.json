@@ -34,12 +34,12 @@
         {
             "title": "Docker",
             "icon": "/imgs/docker.svg",
-            "labels": ["software", "backend", "cloud"]
+            "labels": ["software", "backend", "cloud", "data engineer"]
         },
         {
             "title": "Kubernetes",
             "icon": "/imgs/kubernetes.svg",
-            "labels": ["software", "backend", "cloud"]
+            "labels": ["software", "backend", "cloud", "data engineer"]
         },
         {
             "title": "Python",
@@ -132,6 +132,21 @@
             "title": "MariaDB",
             "icon": "/imgs/mariaDB.svg",
             "labels": ["software", "databases"]
+        },
+        {
+            "title": "Elasticsearch",
+            "icon": "/imgs/elasticsearch.svg",
+            "labels": ["software", "search engines", "data engineer"]
+        },
+        {
+            "title": "OpenSearch",
+            "icon": "/imgs/openSearch.svg",
+            "labels": ["software", "search engines", "data engineer"]
+        },
+        {
+            "title": "Spark",
+            "icon": "/imgs/spark.svg",
+            "labels": ["software", "data processing", "data engineer"]
         },
         {
             "title": "Spanish (native)",

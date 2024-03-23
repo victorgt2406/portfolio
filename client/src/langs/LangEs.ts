@@ -5,7 +5,8 @@ const langEs: Lang = {
     contact: "contacto",
     skills: "competencias",
     experiences: "experiencia profesional",
-    projects: "proyectos"
+    projects: "proyectos",
+    education: "formación académica"
 }
 
 export default langEs;

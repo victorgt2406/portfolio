@@ -9,15 +9,15 @@ body {
 }
 
 .h1, h1, .fs-1 {
-    font-size: 30px !important; 
-}
-
-.h2, h2, .fs-2 {
     font-size: 26px !important; 
 }
 
-.h3, h3, .fs-3 {
+.h2, h2, .fs-2 {
     font-size: 22px !important; 
+}
+
+.h3, h3, .fs-3 {
+    font-size: 20px !important; 
 }
 
 .h4, h4, .fs-4 {

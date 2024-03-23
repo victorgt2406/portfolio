@@ -4,7 +4,7 @@ type Lang = {
     skills: string;
     experiences: string;
     projects: string;
-
+    education: string;
 };
 
 export type { Lang };

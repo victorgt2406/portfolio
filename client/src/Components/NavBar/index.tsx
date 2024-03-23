@@ -1,22 +1,26 @@
 import { useContext } from "react";
 import Context from "../../utils/Context";
-import Element from "./Element";
 import capitalizeFirstLetter from "../../utils/capitalizeFirstLetter";
+import NavLink from "./NavLink";
+import NavBtnDark from "./NavButtons/NavBtnDark";
+import NavBtnLang from "./NavButtons/NavBtnLang";
 
 export default function NavBar() {
     const { lang } = useContext(Context);
 
     const elements: JSX.Element[] = [
-        <Element
+        <NavLink
             title={capitalizeFirstLetter(lang.home)}
-            link={"/"}
+            to={"/"}
             icon={<i className="bi bi-house-fill"></i>}
         />,
-        <Element
+        <NavLink
             title={capitalizeFirstLetter(lang.contact)}
-            link={"/contact"}
+            to={"/contact"}
             icon={<i className="bi bi-person-lines-fill"></i>}
-        />
+        />,
+        <NavBtnLang/>,
+        <NavBtnDark/>
     ];
     return (
         <div

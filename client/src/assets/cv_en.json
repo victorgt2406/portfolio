@@ -34,32 +34,22 @@
         {
             "title": "Docker",
             "icon": "/imgs/docker.svg",
-            "labels": ["software", "backend", "cloud"]
+            "labels": ["software", "backend", "cloud", "data engineer"]
         },
         {
             "title": "Kubernetes",
             "icon": "/imgs/kubernetes.svg",
-            "labels": ["software", "backend", "cloud"]
+            "labels": ["software", "backend", "cloud", "data engineer"]
         },
         {
-            "title": "Python",
-            "icon": "/imgs/python.svg",
-            "labels": [
-                "software",
-                "data engineer",
-                "computer science",
-                "programming languages"
-            ]
+            "title": "gitHub",
+            "icon": "/imgs/github.svg",
+            "labels": ["software", "devOps"]
         },
         {
-            "title": "Keras",
-            "icon": "/imgs/keras.svg",
-            "labels": ["software", "computer science"]
-        },
-        {
-            "title": "R",
-            "icon": "/imgs/r.svg",
-            "labels": ["software", "data engineer", "programming languages"]
+            "title": "ArgoCD",
+            "icon": "/imgs/argoCD.svg",
+            "labels": ["software", "devOps", "cloud"]
         },
         {
             "title": "Java",
@@ -109,6 +99,21 @@
             ]
         },
         {
+            "title": "Python",
+            "icon": "/imgs/python.svg",
+            "labels": [
+                "software",
+                "data engineer",
+                "computer science",
+                "programming languages"
+            ]
+        },
+        {
+            "title": "R",
+            "icon": "/imgs/r.svg",
+            "labels": ["software", "data engineer", "programming languages"]
+        },
+        {
             "title": "MongoDB",
             "icon": "/imgs/mongoDB.svg",
             "labels": ["software", "databases"]
@@ -132,6 +137,26 @@
             "title": "MariaDB",
             "icon": "/imgs/mariaDB.svg",
             "labels": ["software", "databases"]
+        },
+        {
+            "title": "Elasticsearch",
+            "icon": "/imgs/elasticsearch.svg",
+            "labels": ["software", "search engines", "data engineer"]
+        },
+        {
+            "title": "OpenSearch",
+            "icon": "/imgs/openSearch.svg",
+            "labels": ["software", "search engines", "data engineer"]
+        },
+        {
+            "title": "Spark",
+            "icon": "/imgs/spark.svg",
+            "labels": ["software", "data processing", "data engineer"]
+        },
+        {
+            "title": "Keras",
+            "icon": "/imgs/keras.svg",
+            "labels": ["software", "computer science"]
         },
         {
             "title": "Spanish (native)",

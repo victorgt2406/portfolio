@@ -9,8 +9,8 @@ const LANGS: Record<LangOption, Lang> = {
     "es": langEs
 }
 
-type Darkmode = "Light ☀️" | "Dark 🌙" | "System 💻";
-const DARKMODES = ["Light ☀️", "Dark 🌙", "System 💻"];
+type Darkmode = "Light ☀️" | "Dark 🌙" | "Sys 💻";
+const DARKMODES:Darkmode[] = ["Light ☀️", "Dark 🌙", "Sys 💻"];
 
 export { DARKMODES, LANGS_OPTIONS, LANGS };
 

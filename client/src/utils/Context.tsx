@@ -158,7 +158,6 @@ function ContextProvider({ children }: { children: React.ReactNode }) {
                 new Date().toISOString(),
             ])
         );
-        console.log(JSON.parse(Cookies.get("visits")!));
         const systemDark = window.matchMedia("(prefers-color-scheme: dark)");
         const handleSystemDarkmode = () =>
             handleSetDark(Cookies.get("dark")! as Darkmode);

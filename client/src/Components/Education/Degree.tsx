@@ -25,8 +25,8 @@ export default function Experience({
                     </div>
                     <ul className="d-flex flex-column w-100 m-0 mt-1">
                         {years.map((year, index) => (
-                            <li>
-                                <Year key={index} {...year} />
+                            <li  key={index}>
+                                <Year {...year} />
                             </li>
                         ))}
                     </ul>

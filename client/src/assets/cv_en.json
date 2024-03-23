@@ -172,7 +172,7 @@
     "education": [
         {
             "company": "Idaho Falls High School",
-            "icon": "/imgs/mongoDB.svg",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Idaho_Falls_High_School_logo.svg/1510px-Idaho_Falls_High_School_logo.svg.png",
             "location": "Idaho, United States",
             "start": "2018-08-01",
             "end": "2019-05-31",
@@ -186,8 +186,8 @@
             ]
         },
         {
-            "company": "Colegio San Gabriel Madrid",
-            "icon": "/imgs/mongoDB.svg",
+            "company": "San Gabriel Madrid High School",
+            "icon": "https://madrid.gabrielistas.org/wp-content/uploads/2022/01/GABRIELISTAS-ESCUDO-.png",
             "location": "Madrid, Spain",
             "start": "2019-09-01",
             "end": "2020-06-30",
@@ -201,8 +201,8 @@
             ]
         },
         {
-            "company": "U-tad",
-            "icon": "/imgs/mongoDB.svg",
+            "company": "U-tad University",
+            "icon": "https://st1.u-tad.com/media/2020/11/Ij8G0b_x_400x400.png",
             "location": "Madrid, Spain",
             "start": "2020-10-01",
             "end": "2024-06-01",

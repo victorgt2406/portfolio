@@ -5,7 +5,8 @@ const langEn: Lang = {
     contact: "contact",
     skills: "skills",
     experiences: "experiences",
-    projects: "projects"
+    projects: "projects",
+    education: "education"
 }
 
 export default langEn;

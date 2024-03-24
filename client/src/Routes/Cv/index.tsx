@@ -5,6 +5,7 @@ import Skills from "./Skills";
 import Education from "../../Components/Education";
 import style from "./style";
 import { forwardRef, useImperativeHandle, useRef } from "react";
+import Contacts from "./Contacts";
 
 const Cv = forwardRef((_props, ref) => {
     const internalRef = useRef<HTMLDivElement>(null);
@@ -19,6 +20,7 @@ const Cv = forwardRef((_props, ref) => {
         <div className="mx-4 my-1" ref={internalRef}>
             <div dangerouslySetInnerHTML={{ __html: style }} />
             <Presentation />
+            <Contacts/>
             <Experiences />
             <Education />
             <Skills />

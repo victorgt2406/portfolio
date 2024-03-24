@@ -15,7 +15,7 @@ export default function Experience({
                     style={{
                         height: "50px",
                     }}
-                    className="rounded-1"
+                    className="rounded"
                     src={icon}
                 />
                 <div className="w-100 d-flex flex-column ps-2">

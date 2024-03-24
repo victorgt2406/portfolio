@@ -31,7 +31,7 @@ export default function Experience({
                         style={{
                             height: "50px",
                         }}
-                        className="rounded-4"
+                        className="rounded"
                         src={image}
                     />
                     <div className="ms-2">

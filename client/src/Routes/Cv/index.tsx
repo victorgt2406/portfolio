@@ -20,9 +20,9 @@ const Cv = forwardRef((_props, ref) => {
             <div dangerouslySetInnerHTML={{ __html: style }} />
             <Presentation />
             <Contacts/>
+            <Skills />
             <Experiences />
             <Education />
-            <Skills />
         </div>
     );
 });

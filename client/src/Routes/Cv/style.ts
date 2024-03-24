@@ -33,6 +33,14 @@ body {
     font-size: 14px !important; 
 }
 
+.fs-7 {
+    font-size: 12px !important; 
+}
+
+.fs-8 {
+    font-size: 10px !important; 
+}
+
 @page {
     size: A4;
     margin: 0

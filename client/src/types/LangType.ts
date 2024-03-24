@@ -5,6 +5,7 @@ type Lang = {
     experiences: string;
     projects: string;
     education: string;
+    cvProjectCreation: string;
 };
 
 export type { Lang };

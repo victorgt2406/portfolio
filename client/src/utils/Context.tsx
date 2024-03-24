@@ -48,7 +48,8 @@ const defaultValues: ContextProps = {
         skills: "",
         experiences: "",
         projects: "",
-        education: ""
+        education: "",
+        cvProjectCreation: ""
     },
 };
 

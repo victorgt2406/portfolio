@@ -3,7 +3,7 @@ import { ReactNode } from "react";
 
 type MyProps = {
     icon: ReactNode;
-    content: string;
+    content: ReactNode;
 };
 
 export default function Contact ({icon, content}:MyProps) {

@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import Presentation from "../../Components/Presentation";
 import Experiences from "../../Components/Experiences";
 import Skills from "./Skills";
@@ -24,7 +23,6 @@ const Cv = forwardRef((_props, ref) => {
             <Experiences />
             <Education />
             <Skills />
-            <Link to={"https://victorgt2406.github.io/portfolio/"}>Web</Link>
         </div>
     );
 });

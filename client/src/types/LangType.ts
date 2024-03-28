@@ -6,6 +6,9 @@ type Lang = {
     projects: string;
     education: string;
     cvProjectCreation: string;
+    teamWork: string;
+    resolver: string;
+    communication: string;
 };
 
 export type { Lang };

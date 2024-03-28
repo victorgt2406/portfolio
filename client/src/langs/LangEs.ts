@@ -7,7 +7,10 @@ const langEs: Lang = {
     experiences: "experiencia profesional",
     projects: "proyectos",
     education: "formación académica",
-    cvProjectCreation: "Detalles técnicos: Este currículum y portfolio han sido creados con ReactJs, utilizando Vite para el desarrollo y GitHub Actions para el hosting. Para el estilo se utiliza Bootstrap 5, complementándolo con un CSS personalizado. Para más información, visita el GitHub del portfolio."
+    cvProjectCreation: "Detalles técnicos: Este currículum y portfolio han sido creados con ReactJs, utilizando Vite para el desarrollo y GitHub Actions para el hosting. Para el estilo se utiliza Bootstrap 5, complementándolo con un CSS personalizado. Para más información, visita el GitHub del portfolio.",
+    teamWork: "Trabajo en equipo",
+    resolver: "Resolución de problemas",
+    communication: "Comunicación"
 }
 
 export default langEs;

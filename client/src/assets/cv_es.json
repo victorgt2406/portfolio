@@ -170,49 +170,28 @@
     ],
     "skillsCategories": [
         {
-            "category": "Lenguajes de programación",
-            "skills": [
-                "C",
-                "C++",
-                "Java",
-                "Python",
-                "R",
-                "JavaScript",
-                "TypeScript",
-                "Dart"
-            ]
+            "category": "Leng. de programación",
+            "skills": ["C","C++","Java", "Python", "R", "JavaScript", "TypeScript", "Dart"]
         },
         {
             "category": "Bases de datos",
-            "skills": ["MariaDB", "MySQL", "MongoDB", "Redis", "Neo4j"]
+            "skills": ["MariaDB","MySQL","MongoDB", "Redis", "Neo4j"]
         },
         {
             "category": "FullStack",
-            "skills": [
-                "HTML",
-                "CSS",
-                "vanilla JavaScript",
-                "React",
-                "Bootstrap",
-                "ExpressJS",
-                "FastAPI",
-                "Flask"
-            ]
+            "skills": ["HTML", "CSS", "JavaScript", "React", "Bootstrap", "ExpressJS","FastAPI", "Flask"]
         },
         {
-            "category": "Data Engineer (procesamiento de datos)",
-            "skills": ["Spark", "Elasticsearch", "OpenSearch", "Kibana"]
+            "category": "Ingeniero de Datos",
+            "skills": ["Spark","Elasticsearch","OpenSearch", "Kibana"]
         },
         {
-            "category": "Computer Science",
-            "skills": [
-                "Tensorflow-keras (Deep Learning)",
-                "ScikitLearn (Machine Learning)"
-            ]
+            "category": "Ciencias de la computación",
+            "skills": ["Tensorflow", "Keras", "ScikitLearn"]
         },
         {
             "category": "DevOps",
-            "skills": ["GitHub", "Jenkins", "ArgoCD"]
+            "skills": ["GitHub","Jenkins", "ArgoCD"]
         }
     ],
     "education": [

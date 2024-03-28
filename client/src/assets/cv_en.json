@@ -165,24 +165,24 @@
     ],
     "skillsCategories": [
         {
-            "category": "Lenguajes de programación",
+            "category": "Programming languages",
             "skills": ["C","C++","Java", "Python", "R", "JavaScript", "TypeScript", "Dart"]
         },
         {
-            "category": "Bases de datos",
+            "category": "Data Bases",
             "skills": ["MariaDB","MySQL","MongoDB", "Redis", "Neo4j"]
         },
         {
             "category": "FullStack",
-            "skills": ["HTML", "CSS", "vanilla JavaScript", "React", "Bootstrap", "ExpressJS","FastAPI", "Flask"]
+            "skills": ["HTML", "CSS", "JavaScript", "React", "Bootstrap", "ExpressJS","FastAPI", "Flask"]
         },
         {
-            "category": "Data Engineer (procesamiento de datos)",
+            "category": "Data Engineer",
             "skills": ["Spark","Elasticsearch","OpenSearch", "Kibana"]
         },
         {
             "category": "Computer Science",
-            "skills": ["Tensorflow-keras (Deep Learning)","ScikitLearn (Machine Learning)"]
+            "skills": ["Tensorflow", "Keras", "ScikitLearn"]
         },
         {
             "category": "DevOps",

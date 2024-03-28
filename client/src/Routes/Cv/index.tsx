@@ -1,12 +1,11 @@
 import Presentation from "../../Components/Presentation";
 import Experiences from "../../Components/Experiences";
-// import Skills from "./Skills";
 import Education from "../../Components/Education";
 import style from "./style";
 import { forwardRef, useImperativeHandle, useRef } from "react";
 import Contacts from "./Contacts";
 import CvProjectDetails from "./CvProjectDetails";
-import NewSkills from "./NewSkills";
+import Skills from "./Skills";
 import Languages from "./Languages";
 
 const Cv = forwardRef((_props, ref) => {
@@ -23,8 +22,7 @@ const Cv = forwardRef((_props, ref) => {
             <div dangerouslySetInnerHTML={{ __html: style }} />
             <Presentation />
             <Contacts />
-            <NewSkills/>
-            {/* <Skills /> */}
+            <Skills/>
             <Experiences />
             <Education />
             <Languages/>

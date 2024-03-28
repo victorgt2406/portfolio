@@ -11,9 +11,16 @@
     --bs-primary-opacity: 1;
     --bs-primary-hover: #8B322E;
     /* secondary */
-    --bs-secondary: #e0504b; /* Gray */
+    --bs-secondary: #BEB7A4; /* Gray */
+    --bs-secondary-rgb: 190, 183, 164;
+    --bs-secondary-opacity: 1;
+    --bs-secondary-hover: #787469;
     /* info */
     --bs-info: #e0504b; /* Cyan */
+    --bs-info-rgb: 224, 80, 75;
+    --bs-info-opacity: 1;
+    --bs-info-hover: #642622;
+
     --bs-success: #198754; /* Green */
     --bs-warning: #ffc107; /* Yellow */
     --bs-danger: #dc3545; /* Red */

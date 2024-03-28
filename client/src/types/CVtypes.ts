@@ -11,6 +11,16 @@ type Skills = {
     labels: string[];
 };
 
+type SkillsCategories = {
+    category: string;
+    skills: string[];
+}
+
+type Languages = {
+    title: string;
+    icon: string;
+}
+
 type Education = {
     company: string;
     icon: string;
@@ -52,9 +62,11 @@ type Projects = {
 type CV = {
     presentation: Presentation;
     skills: Array<Skills>;
+    languages: Array<Languages>;
+    skillsCategories: Array<SkillsCategories>;
     education: Array<Education>;
     experience: Array<Experience>;
     projects: Array<Projects>;
 };
 
-export type { CV, Presentation, Skills, Education, Experience, Projects };
+export type { CV, Presentation, Skills, SkillsCategories, Languages, Education, Experience, Projects };

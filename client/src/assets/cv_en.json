@@ -13,7 +13,7 @@
         },
         {
             "title": "Communication",
-            "icon": "/imgs/comunication.svg",
+            "icon": "/imgs/communication.svg",
             "labels": ["interpersonal skills"]
         },
         {
@@ -157,16 +157,36 @@
             "title": "Keras",
             "icon": "/imgs/keras.svg",
             "labels": ["software", "computer science"]
+        }
+    ],
+    "languages": [
+        { "title": "Spanish (native)", "icon": "/imgs/english.svg" },
+        { "title": "English (C1 Certificated)", "icon": "/imgs/spanish.svg" }
+    ],
+    "skillsCategories": [
+        {
+            "category": "Programming languages",
+            "skills": ["C","C++","Java", "Python", "R", "JavaScript", "TypeScript", "Dart"]
         },
         {
-            "title": "Spanish (native)",
-            "icon": "/imgs/spanish.svg",
-            "labels": ["language"]
+            "category": "Data Bases",
+            "skills": ["MariaDB","MySQL","MongoDB", "Redis", "Neo4j"]
         },
         {
-            "title": "English (C1)",
-            "icon": "/imgs/english.svg",
-            "labels": ["language"]
+            "category": "FullStack",
+            "skills": ["HTML", "CSS", "JavaScript", "React", "Bootstrap", "ExpressJS","FastAPI", "Flask"]
+        },
+        {
+            "category": "Data Engineer",
+            "skills": ["Spark","Elasticsearch","OpenSearch", "Kibana"]
+        },
+        {
+            "category": "Computer Science",
+            "skills": ["Tensorflow", "Keras", "ScikitLearn"]
+        },
+        {
+            "category": "DevOps",
+            "skills": ["GitHub","Jenkins", "ArgoCD"]
         }
     ],
     "education": [

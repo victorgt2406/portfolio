@@ -9,30 +9,29 @@ type BestSkillsProps = {
 
 function BestSkills(props: BestSkillsProps) {
     return (
-        <div className="d-flex p-2 h6 col-sm col-6 text-secondary">
-            <div className="pe-2">{props.name}</div>
-            <div>{props.icon}</div>
+        <div className="d-flex p-1 fs-7 col-sm col-12 opacity-75 align-items-center w-100">
+            <div className="me-2">{props.name}</div>
+            <div className="">{props.icon}</div>
         </div>
     );
 }
 
 export default function Presentation() {
-    const { cv } = useContext(Context);
-
+    const { cv, lang } = useContext(Context);
 
     const cvPhotoSize = 170;
     const bestSkills: JSX.Element[] = [
         <BestSkills
-            name="TeamWork"
+            name={lang.teamWork}
             icon={<i className="bi bi-people-fill"></i>}
         />,
         <BestSkills
-            name="Engagement"
+            name={lang.communication}
             icon={<i className="bi bi-megaphone-fill"></i>}
         />,
         <BestSkills
-            name="Professionalism"
-            icon={<i className="bi bi-person-raised-hand"></i>}
+            name={lang.resolver}
+            icon={<i className="bi bi-wrench-adjustable"></i>}
         />,
     ];
 
@@ -43,11 +42,9 @@ export default function Presentation() {
                 {/* nombre */}
                 <h1 className="mb-4">{cv.presentation.fullname}</h1>
                 {/* resumen */}
-                <h4>
-                    {cv.presentation.brief}
-                </h4>
+                <h4>{cv.presentation.brief}</h4>
                 {/* skills */}
-                <div className="d-flex align-items-center flex-wrap ps-3">
+                <div className="d-flex flex-wrap">
                     {...bestSkills}
                 </div>
             </div>

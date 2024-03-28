@@ -1,11 +1,12 @@
 import Presentation from "../../Components/Presentation";
 import Experiences from "../../Components/Experiences";
-import Skills from "./Skills";
 import Education from "../../Components/Education";
 import style from "./style";
 import { forwardRef, useImperativeHandle, useRef } from "react";
 import Contacts from "./Contacts";
 import CvProjectDetails from "./CvProjectDetails";
+import Skills from "./Skills";
+import Languages from "./Languages";
 
 const Cv = forwardRef((_props, ref) => {
     const internalRef = useRef<HTMLDivElement>(null);
@@ -21,9 +22,10 @@ const Cv = forwardRef((_props, ref) => {
             <div dangerouslySetInnerHTML={{ __html: style }} />
             <Presentation />
             <Contacts />
-            <Skills />
+            <Skills/>
             <Experiences />
             <Education />
+            <Languages/>
             <CvProjectDetails />
         </div>
     );

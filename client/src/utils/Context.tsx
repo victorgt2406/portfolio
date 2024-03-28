@@ -41,6 +41,8 @@ const defaultValues: ContextProps = {
         education: [],
         experience: [],
         projects: [],
+        languages: [],
+        skillsCategories: []
     },
     lang: {
         home: "",
@@ -49,7 +51,11 @@ const defaultValues: ContextProps = {
         experiences: "",
         projects: "",
         education: "",
-        cvProjectCreation: ""
+        cvProjectCreation: "",
+        teamWork: "",
+        resolver: "",
+        communication: "",
+        languages: ""
     },
 };
 

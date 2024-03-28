@@ -9,6 +9,7 @@ type Lang = {
     teamWork: string;
     resolver: string;
     communication: string;
+    languages: string;
 };
 
 export type { Lang };

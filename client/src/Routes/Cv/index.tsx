@@ -7,6 +7,7 @@ import { forwardRef, useImperativeHandle, useRef } from "react";
 import Contacts from "./Contacts";
 import CvProjectDetails from "./CvProjectDetails";
 import NewSkills from "./NewSkills";
+import Languages from "./Languages";
 
 const Cv = forwardRef((_props, ref) => {
     const internalRef = useRef<HTMLDivElement>(null);
@@ -26,6 +27,7 @@ const Cv = forwardRef((_props, ref) => {
             {/* <Skills /> */}
             <Experiences />
             <Education />
+            <Languages/>
             <CvProjectDetails />
         </div>
     );

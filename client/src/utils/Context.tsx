@@ -54,7 +54,8 @@ const defaultValues: ContextProps = {
         cvProjectCreation: "",
         teamWork: "",
         resolver: "",
-        communication: ""
+        communication: "",
+        languages: ""
     },
 };
 

@@ -25,7 +25,7 @@ export default function Experience({
 }: MyProps) {
     return (
         <div className="card">
-            <div className="d-flex w-100 align-items-start justify-content-between fs-5">
+            <div className="d-flex w-100 align-items-start justify-content-between fs-6">
                 <div className="d-flex align-items-start">
                     <img
                         style={{
@@ -40,7 +40,7 @@ export default function Experience({
                     </div>
                 </div>
                 <div className="d-flex flex-column align-items-end">
-                    <Location location={location} className="fst-italic fw-bold"/>
+                    <Location location={location} className="fst-italic"/>
                     <div className="d-flex justify-content-end fst-italic fw-lighter">
                         <Dates {...{start, end}}/>
                     </div>

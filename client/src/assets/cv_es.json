@@ -234,21 +234,21 @@
             "years": [
                 {
                     "start": "2020-10-01",
-                    "end": "2019-05-31",
+                    "end": "2021-06-01",
                     "title": "Primero de Ingeniería del Software",
                     "honors": [
                         "Matrícula de honor en Introducción a la Programación II"
                     ]
                 },
                 {
-                    "start": "2020-09-01",
-                    "end": "2019-05-31",
+                    "start": "2021-09-01",
+                    "end": "2022-06-01",
                     "title": "Segundo de Ingeniería del Software",
                     "honors": []
                 },
                 {
                     "start": "2022-09-18",
-                    "end": "2023-05-31",
+                    "end": "2023-06-01",
                     "title": "Tercero de Ingeniería del Software",
                     "honors": ["Matrícula de honor en Sistemas Distribuidos"]
                 },
@@ -287,8 +287,7 @@
                 "title": "Prácticas | Data engineer",
                 "description": [
                     "Prácticas como Data engineer, donde estuve iniciando un proyecto con la herramienta MsGraph de microsoft para detectar anomalías o riesgos",
-                    "Aprendí mucho a recopilar datos con MsGraph donde obtuve datos principalmente de Intune y de Microsoft 365. Desarrolle un demonio para obtener estos datos y almacenarlos en el motor de búsqueda Elasticsearch y Opensearch.",
-                    "Por diferentes motivos, Elasticsearch se escogió como motor de búsqueda con el que continuar el proyecto. para ampliar mi conocimiento realizando visualizaciones de los datos de MsGraph con Kibana e implemente watchers para avisar de posibles riesgos basados en los datos."
+                    "Aprendí mucho a recopilar datos con MsGraph donde obtuve datos principalmente de Intune y de Microsoft 365. Desarrolle un demonio para obtener estos datos y almacenarlos en el motor de búsqueda Elasticsearch y Opensearch."
                 ],
                 "skills": [
                     "Elasticsearch",

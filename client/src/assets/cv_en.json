@@ -229,19 +229,19 @@
             "years": [
                 {
                     "start": "2020-10-01",
-                    "end": "2019-05-31",
+                    "end": "2021-06-01",
                     "title": "First year of Software Engineering",
                     "honors": ["Honor Roll in Introduction to Programming II"]
                 },
                 {
-                    "start": "2020-09-01",
-                    "end": "2019-05-31",
+                    "start": "2021-09-01",
+                    "end": "2022-06-01",
                     "title": "Second year of Software Engineering",
                     "honors": []
                 },
                 {
                     "start": "2022-09-18",
-                    "end": "2023-05-31",
+                    "end": "2023-06-01",
                     "title": "Third year of Software Engineering",
                     "honors": ["Honor Roll in Distributed Systems"]
                 },
@@ -275,9 +275,8 @@
             "position": {
                 "title": "Internship | Data Engineer",
                 "description": [
-                    "Internship as a Data Engineer, initiating a project with Microsoft's MsGraph tool for anomaly or risk detection.",
-                    "Learned a lot about data collection with MsGraph, obtaining data mainly from Intune and Microsoft 365. Developed a daemon to collect these data and store them in the Elasticsearch and Opensearch search engines.",
-                    "For various reasons, Elasticsearch was chosen as the search engine to continue the project. Expanded my knowledge by creating visualizations of MsGraph data with Kibana and implemented watchers to alert possible risks based on the data."
+                    "Internship as a Data Engineer, initiating a project with Microsoft's MsGraph tool for anomaly and risk detection.",
+                    "Learned a lot about data collection with MsGraph, obtaining data mainly from Intune and Microsoft 365. Developed a daemon to collect these data and store them in the Elasticsearch and Opensearch search engines."
                 ],
                 "skills": [
                     "Elasticsearch",

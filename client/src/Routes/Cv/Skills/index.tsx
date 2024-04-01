@@ -10,7 +10,7 @@ export default function Skills(){
     const skillsCategories = cv.skillsCategories;
 
     return (
-        <div>
+        <div className="mb-2">
             <h2>{capitalizeFirstLetter(lang.skills)}</h2>
             <div className="d-flex flex-wrap">{...skillsCategories.map((skill)=><Category key={skill.category} {...skill}/>)}</div>
         </div>

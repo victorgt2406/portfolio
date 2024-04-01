@@ -9,7 +9,7 @@ export default function Education() {
     const Courses = context.cv.education.sort((a, b) => (new Date(b.start)).getTime() - (new Date(a.start)).getTime()).map((exp, index) => <Degree key={index} {...exp} />)
 
     return (
-        <div className="d-flex flex-column w-100">
+        <div className="d-flex flex-column w-100 mb-2">
             <h2>{capitalizeFirstLetter(context.lang.education)}</h2>
             {...Courses}
         </div>

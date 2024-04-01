@@ -286,7 +286,7 @@
             "position": {
                 "title": "Prácticas | Data engineer",
                 "description": [
-                    "Prácticas como Data engineer, donde estuve iniciando un proyecto con la herramienta MsGraph de microsoft para detectar anomalías o riesgos",
+                    "Prácticas como Data engineer, donde estuve iniciando un proyecto con la herramienta MsGraph de microsoft para detectar anomalías y riesgos.",
                     "Aprendí mucho a recopilar datos con MsGraph donde obtuve datos principalmente de Intune y de Microsoft 365. Desarrolle un demonio para obtener estos datos y almacenarlos en el motor de búsqueda Elasticsearch y Opensearch."
                 ],
                 "skills": [

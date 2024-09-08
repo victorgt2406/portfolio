@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import cvPhoto from "../assets/cv_photo.png";
+import cvPhoto from "../assets/graduated-1_1.png";
 import Context from "../utils/Context";
 
 type BestSkillsProps = {

@@ -3,7 +3,7 @@
         "fullname": "Víctor Gutiérrez Tovar",
         "name": "Víctor",
         "surnames": "Gutiérrez Tovar",
-        "brief": "Final year Software Engineering student, specializing in Data Engineering and Full Stack development."
+        "brief": "Software Engineer | Specialized in Data Engineering & Full Stack Development"
     },
     "skills": [
         {
@@ -247,7 +247,7 @@
                 },
                 {
                     "start": "2023-09-14",
-                    "end": "2024-06-01",
+                    "end": "2024-07-01",
                     "title": "Fourth year of Software Engineering",
                     "honors": []
                 }
@@ -322,6 +322,19 @@
                     "url": "https://github.com/victorgt2406/la_escoba"
                 }
             ]
+        },
+        {
+            "id": "tfg",
+            "title": "Bachelor's Final Project",
+            "description": "The present study aims to investigate the efficiency of large search models (LSMs), that is, the integration of large language models (LLMs) with search engines. LLMs, by their very nature, cannot offer updated knowledge of the present, only the content with which they were trained. Therefore, integrating a search engine will allow LLMs to obtain relevant and updated information.<br><br>A prototype of LSM will be developed with the goal of evaluating the current state of these technologies. The prototype will be capable of interpreting queries using natural language, offering an experience similar to interacting with a chatbot. The responses to these queries will be based on information from sources chosen by the user and introduced into the search engine.<br><br>To test this prototype, two applications will be created in different contexts. The first will be based on official information from Spanish law, and the second will be applied in the pharmacological context.<br><br>The prototype will be compared with current LSM technologies, such as ChatGPT, Microsoft Copilot, and Gemini. Additionally, ethical issues surrounding LLMs will be addressed, emphasizing the importance of verifying the use of reliable sources.<br><br>With the results obtained, a perception of the current state of LSMs built from open-source technologies will be achieved, showing how their application can facilitate the handling of large amounts of data and improve productivity by reducing information search times.",
+            "img": "/projects/tfg/app.png",
+            "links": [
+                {
+                    "title": "Bachelor's Final Project",
+                    "url": "https://github.com/victorgt2406/tfg"
+                }
+            ]
         }
+        
     ]
 }

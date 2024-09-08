@@ -3,7 +3,7 @@
         "fullname": "Víctor Gutiérrez Tovar",
         "name": "Víctor",
         "surnames": "Gutiérrez Tovar",
-        "brief": "Estudiante de final de año de Ingeniería del Software, especializado en Data Engineering y Full Stack development."
+        "brief": "Ingeniero Software | Especializado en Data Engineering & Full Stack Development"
     },
     "skills": [
         {
@@ -254,7 +254,7 @@
                 },
                 {
                     "start": "2023-09-14",
-                    "end": "2024-06-01",
+                    "end": "2024-07-01",
                     "title": "Cuarto de Ingeniería del Software",
                     "honors": []
                 }
@@ -331,6 +331,18 @@
                 {
                     "title": "La escoba",
                     "url": "https://github.com/victorgt2406/la_escoba"
+                }
+            ]
+        },
+        {
+            "id": "tfg",
+            "title": "Trabajo Fin de Grado",
+            "description": "El presente estudio tiene como objetivo investigar la eficiencia de los modelos grandes de búsqueda (LSMs), es decir, la integración de modelos grandes de lenguaje (LLMs) con motores de búsqueda. Los LLMs, por su propia naturaleza, no pueden ofrecer un conocimiento actualizado del presente, únicamente del contenido con el que fueron entrenados. Por ello, la integración de un motor de búsqueda permitirá a los LLMs obtener información relevante y actualizada.<br><br>Se desarrollará un prototipo de LSM cuyo objetivo será evaluar el estado actual de estas tecnologías. El prototipo será capaz de interpretar consultas utilizando lenguaje natural, ofreciendo una experiencia similar a la de interactuar con un chatbot. Las respuestas a estas consultas se basarán en información de las fuentes elegidas por el propio usuario e introducidas en el motor de búsqueda.<br><br>Para poner a prueba este prototipo, se crearán dos aplicaciones en contextos diferentes. La primera se basará en la información oficial del derecho español y la segunda se aplicará en el contexto farmacológico.<br><br>Se comparará el prototipo con las actuales tecnologías LSM, como ChatGPT, Microsoft Copilot y Gemini. Por otro lado, se tratarán sobre las cuestiones éticas de los LLMs, enfatizando en la importancia de la verificación del uso de fuentes fiables.<br><br>Con los resultados obtenidos se obtendrá una percepción del estado actual de los LSMs construidos a partir de tecnologías de código abierto, mostrando de esta forma cómo su aplicación puede facilitar el manejo de grandes cantidades de datos y mejorar la productividad por la reducción en los tiempos de búsqueda de información.",
+            "img": "/projects/tfg/app.png",
+            "links": [
+                {
+                    "title": "Trabajo Fin de Grado",
+                    "url": "https://github.com/victorgt2406/tfg"
                 }
             ]
         }

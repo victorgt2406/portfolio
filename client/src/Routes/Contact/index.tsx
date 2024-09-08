@@ -29,7 +29,7 @@ export default function Contact() {
                     .responsive-iframe {
                         width: 100%;
                         border: none;
-                        height: 800px; 
+                        height: 950px; 
                     }
                     @media (max-width: 768px) {
                         .responsive-iframe {
@@ -50,7 +50,7 @@ export default function Contact() {
                         iframe.style.height = "1100px";
                     } else {
                         // Height for desktop
-                        iframe.style.height = "800px";
+                        iframe.style.height = "950px";
                     }
                     }
                     window.addEventListener('load', adjustIframeHeight);

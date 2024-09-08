@@ -2,6 +2,8 @@ import React, { useRef, useState } from "react";
 import NavBtn from "../NavBtn";
 import Cv from "../../../Routes/Cv";
 import { useReactToPrint } from "react-to-print";
+import isMobile from "../../../utils/isMobile";
+import NavDropdownItem from "../NavDropdownItem";
 
 const NavBtnPrintCV: React.FC = () => {
     const componentRef = useRef<React.ReactInstance | null>(null);
@@ -14,25 +16,41 @@ const NavBtnPrintCV: React.FC = () => {
         onAfterPrint: () => setIsPrinting(false), // Hide the component after printing
     });
 
-    const handlePrint = async ()=>{
-        setIsPrinting(true)
-        await new Promise(resolve => setTimeout(resolve, 100));
-        console.log("hello")
+    const handlePrint = async () => {
+        setIsPrinting(true);
+        await new Promise((resolve) => setTimeout(resolve, 100));
+        console.log("hello");
         handleReactPrint();
-    }
+    };
 
-    return (
+    // return (
+    //     <>
+    //         <NavBtn
+    //             title={"CV"}
+    //             icon={<i className="bi bi-file-earmark-arrow-down-fill"></i>}
+    //             onClick={handlePrint}
+    //         />
+    //         <div style={{ display: "none" }} >
+    //             {isPrinting?<Cv ref={componentRef}/>:<></>}
+    //         </div>
+    //     </>
+    // );
+
+    return !isMobile() ? (
         <>
-            <NavBtn
+            <NavBtn title={"CV"} icon={<i className="bi bi-file-earmark-arrow-down-fill"></i>} onClick={handlePrint} />
+            <div style={{ display: "none" }}>{isPrinting ? <Cv ref={componentRef} /> : <></>}</div>
+        </>
+    ) : (
+        <>
+            <NavDropdownItem
                 title={"CV"}
                 icon={<i className="bi bi-file-earmark-arrow-down-fill"></i>}
                 onClick={handlePrint}
             />
-            <div style={{ display: "none" }} >
-                {isPrinting?<Cv ref={componentRef}/>:<></>}
-            </div>
+            <div style={{ display: "none" }}>{isPrinting ? <Cv ref={componentRef} /> : <></>}</div>
         </>
     );
-}
+};
 
 export default NavBtnPrintCV;

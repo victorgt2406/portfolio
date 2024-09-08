@@ -3,6 +3,8 @@ import NavBtn from "../NavBtn";
 import { LANGS_OPTIONS } from "../../../types/OptionsTypes";
 import Context from "../../../utils/Context";
 import capitalizeFirstLetter from "../../../utils/capitalizeFirstLetter";
+import NavDropdownItem from "../NavDropdownItem";
+import isMobile from "../../../utils/isMobile";
 
 export default function NavLang() {
     const context = useContext(Context);
@@ -14,11 +16,17 @@ export default function NavLang() {
         context.setLangOption(LANGS_OPTIONS[index]);
     };
 
-    return (
+    return !isMobile() ? (
         <NavBtn
             title={capitalizeFirstLetter(context.langOption)}
             icon={<i className="bi bi-translate"></i>}
             onClick={handleChangeMode}
         ></NavBtn>
+    ) : (
+        <NavDropdownItem
+            title={capitalizeFirstLetter(context.langOption)}
+            icon={<i className="bi bi-translate"></i>}
+            onClick={handleChangeMode}
+        />
     );
 }

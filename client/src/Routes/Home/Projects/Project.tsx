@@ -69,7 +69,7 @@ export default function Project({
         <div className="card">
             <h3>{title}</h3>
             <img
-                src={`${process.env.NODE_ENV !== "production" ? "" : "/portfolio"}${img}`}
+                src={`${process.env.NODE_ENV !== "production" ? "" : ""}${img}`}
                 className="card-img-top"
                 alt={`${title} image`}
                 style={{

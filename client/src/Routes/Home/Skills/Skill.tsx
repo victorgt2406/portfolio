@@ -28,7 +28,7 @@ export default function Skill({ title, index, icon }: MyProps) {
         >
             <Tooltip content={title}>
                 <img
-                    src={`${process.env.NODE_ENV !== "production" ? "" : "/portfolio"}${icon}`}
+                    src={`${process.env.NODE_ENV !== "production" ? "" : ""}${icon}`}
                     style={{
                         height: "30px",
                     }}

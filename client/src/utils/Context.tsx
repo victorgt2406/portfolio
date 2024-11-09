@@ -80,7 +80,7 @@ function ContextProvider({ children }: { children: React.ReactNode }) {
                         `${
                             process.env.NODE_ENV !== "production"
                                 ? "/"
-                                : "/portfolio/"
+                                : "/"
                         }styles/light.css`
                     );
                 break;
@@ -93,7 +93,7 @@ function ContextProvider({ children }: { children: React.ReactNode }) {
                         `${
                             process.env.NODE_ENV !== "production"
                                 ? "/"
-                                : "/portfolio/"
+                                : "/"
                         }styles/dark.css`
                     );
                 break;
@@ -111,7 +111,7 @@ function ContextProvider({ children }: { children: React.ReactNode }) {
                             `${
                                 process.env.NODE_ENV !== "production"
                                     ? "/"
-                                    : "/portfolio/"
+                                    : "/"
                             }styles/dark.css`
                         );
                 }
@@ -124,7 +124,7 @@ function ContextProvider({ children }: { children: React.ReactNode }) {
                             `${
                                 process.env.NODE_ENV !== "production"
                                     ? "/"
-                                    : "/portfolio/"
+                                    : "/"
                             }styles/light.css`
                         );
                 }
